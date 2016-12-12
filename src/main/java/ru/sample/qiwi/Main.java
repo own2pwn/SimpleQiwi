@@ -8,6 +8,7 @@ import org.apache.http.util.TextUtils;
 import org.json.JSONML;
 import org.json.JSONObject;
 import org.json.XML;
+import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import ru.sample.qiwi.Helpers.XMLHelper;
 
@@ -35,11 +36,11 @@ import java.util.List;
  * Created by Дмитрий Астахов on 29.08.2016.
  */
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         TestAxilinkSoap invoker = new TestAxilinkSoap();
 
         String json = "{  \n" +
-                "   \"id\":572,\n" +
+                "   \"id\":10.10,\n" +
                 "   \"created\":\"2016-12-06T12:13:08.600658Z\",\n" +
                 "   \"status\":\"PAID\",\n" +
                 "   \"surname\":\"ЗАБРОДИН\",\n" +
@@ -159,11 +160,13 @@ public class Main {
                 "      }\n" +
                 "   }\n" +
                 "}";
-//            try {
-//                    XMLHelper.generateXmlFromJson(json, "response");
-//            } catch (ParserConfigurationException e) {
-//                    e.printStackTrace();
-//            }
+        try {
+            Document doc = XMLHelper.generateXmlFromJson(json, "response");
+            String s = XMLHelper.convertToString(doc);
+            System.out.print(s);
+        } catch (ParserConfigurationException | UnsupportedEncodingException | TransformerException e) {
+            e.printStackTrace();
+        }
 
 //        if (args.length != 2) {
 //            System.out.printf("Неверное количество аргументов\n");

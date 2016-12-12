@@ -214,4 +214,42 @@ public class StringHelper {
     public static String getNumbersLetters(String src) {
         return src.replaceAll("[^а-яА-Яa-zA-Z\\d]", "");
     }
+
+    /**
+     * Экраниварование специальныех символов для XML
+     * <pre>
+     * &amp; заменяется на &amp;amp;
+     * &lt; заменяется на &amp;lt;
+     * &gt; заменяется на &amp;gt;
+     * &quot; заменяется на &amp;quot;
+     * </pre>
+     * @param string Строка
+     * @return Экранированная строка
+     */
+    public static String escapeXmlString(String string) {
+        StringBuilder sb = new StringBuilder(string.length());
+        for (int i = 0, length = string.length(); i < length; i++) {
+            char c = string.charAt(i);
+            switch (c) {
+                case '&':
+                    sb.append("&amp;");
+                    break;
+                case '<':
+                    sb.append("&lt;");
+                    break;
+                case '>':
+                    sb.append("&gt;");
+                    break;
+                case '"':
+                    sb.append("&quot;");
+                    break;
+                case '\'':
+                    sb.append("&apos;");
+                    break;
+                default:
+                    sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
 }
