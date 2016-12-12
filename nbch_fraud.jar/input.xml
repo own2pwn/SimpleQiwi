@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request date="10.10.2016 10:10:10" id="1167843644" request_type="ALL">
+   <person_data>
+      <person birth_date="23.01.1981" birth_place="Москва" first_name="Александр" inn="425345235" last_name="Сидоров" middle_name="Леонидович" snils="123123" reason_request="2" record_id="1" type="1">
+         <person_docs>
+            <doc doc_issue_auth="-" doc_type="1" doc_issue_date="29.02.2016" doc_number="773890" doc_serial="7515" record_id="1"/>
+         </person_docs>
+         <person_addresses>
+            <address address_city_name="Челябинск г" address_index="454014" address_region="" address_type="1" address_building_number="Дом 62Б" address_flat_number="Квартира 42" address_street_name="Комсомольский пр-кт" record_id="1"/>
+            <address address_city_name="Челябинск г" address_index="454014" address_region="34" address_type="2" address_building_number="Дом 62Б" address_flat_number="Квартира 42" address_street_name="Комсомольский пр-кт" record_id="2"/>
+         </person_addresses>
+         <person_phones>
+            <phone phone_number="" phone_type="1" record_id="1"/>
+            <phone phone_number="6569889" phone_type="3" record_id="2"/>
+         </person_phones>
+         <person_emails>
+            <email email_address="asd@asd.ru" email_type="3" record_id="1"/>
+         </person_emails>
+         <person_employment/>
+         <person_pec_obligations/>
+         <person_mortgaged_property/>
+         <person_overdue_debts/>
+         <person_cards>
+            <card card_exp_date="10.10.2018" card_number="123456XXXXXX6789" record_id="1"/>
+         </person_cards>
+      </person>
+   </person_data>
+</request>

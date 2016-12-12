@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<product>
+    <prequest>
+        <req>
+            <AddressReq>
+                <houseNumber>д 16</houseNumber>
+                <street>пр-кт 50- летия Октября</street>
+                <apartment>63</apartment>
+                <city>г Подольск, мкр Климовск</city>
+                <postal>142184</postal>
+                <addressType>1</addressType>
+            </AddressReq>
+            <AddressReq>
+                <houseNumber>д 16 </houseNumber>
+                <street>пр-кт 50- летия Октября</street>
+                <apartment>63</apartment>
+                <city>г Подольск, мкр Климовск</city>
+                <postal>142184</postal>
+                <addressType>2</addressType>
+            </AddressReq>
+            <IdReq>
+                <idNum>389591</idNum>
+                <idType>21</idType>
+                <idTypeText>Паспорт гражданина РФ</idTypeText>
+                <seriesNumber>4611</seriesNumber>
+                <issueCountry>отделением в гор. климовске оуфмс россии по московской обл. в гор. подольск</issueCountry>
+                <issueDate>2010-05-20</issueDate>
+                <issueAuthority>отделением в гор. климовске оуфмс россии по московской обл. в гор. подольск</issueAuthority>
+            </IdReq>
+            <InquiryReq>
+                <ConsentReq>
+                    <consentFlag>Y</consentFlag>
+                    <consentDate>2007-05-28</consentDate>
+                    <consentExpireDate>2018-05-28</consentExpireDate>
+                    <consentPurpose>2</consentPurpose>
+                    <reportUser>ООО Микрофинансовая организация  "Домашние деньги"</reportUser>
+                    <liability>Y</liability>
+                </ConsentReq>
+                <inqPurpose>99</inqPurpose>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+            </InquiryReq>
+            <PersonReq>
+                <name1>АБРАМОВ</name1>
+                <first>ПАВЕЛ</first>
+                <paternal>ВАДИМОВИЧ</paternal>
+                <birthDt>1988-11-25</birthDt>
+                <placeOfBirth>г Подольск </placeOfBirth>
+            </PersonReq>
+            <RequestorReq>
+                <MemberCode>QH01LL000000</MemberCode>
+                <UserID>QH01LL000003</UserID>
+            </RequestorReq>
+            <RefReq>
+                <product>CHST</product>
+            </RefReq>
+            <IOType>B2B</IOType>
+            <OutputFormat>XML</OutputFormat>
+            <lang>ru</lang>
+        </req>
+    </prequest>
+    <preply>
+        <report>
+            <SubjectReply>
+                <lastUpdatedDt>2013-04-22</lastUpdatedDt>
+                <fileSinceDt>2013-04-22</fileSinceDt>
+            </SubjectReply>
+            <PersonReply>
+                <serialNum>69355524</serialNum>
+                <fileSinceDt>2013-04-22</fileSinceDt>
+                <name1>АБРАМОВ</name1>
+                <first>ПАВЕЛ</first>
+                <paternal>ВАДИМОВИЧ</paternal>
+                <nationality></nationality>
+                <birthDt>1988-11-25</birthDt>
+                <placeOfBirth>КЛИМОВСК</placeOfBirth>
+                <lastUpdatedDt>2013-04-22</lastUpdatedDt>
+                <dataValidity></dataValidity>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+                <disputedStatus></disputedStatus>
+                <disputedRemarks></disputedRemarks>
+            </PersonReply>
+            <IdReply>
+                <serialNum>251164369</serialNum>
+                <fileSinceDt>2013-04-22</fileSinceDt>
+                <idNum>022053</idNum>
+                <idType>21</idType>
+                <idTypeText>Паспорт гражданина РФ</idTypeText>
+                <seriesNumber>4611</seriesNumber>
+                <issueCountry>НЕТ</issueCountry>
+                <issueDate>2010-05-20</issueDate>
+                <issueAuthority>НЕТ</issueAuthority>
+                <dataValidity></dataValidity>
+                <lastUpdatedDt>2013-04-22</lastUpdatedDt>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+                <disputedStatus></disputedStatus>
+                <disputedRemarks></disputedRemarks>
+            </IdReply>
+            <AddressReply>
+                <serialNum>497109450</serialNum>
+                <fileSinceDt>2013-04-22</fileSinceDt>
+                <district></district>
+                <houseNumber></houseNumber>
+                <street>НЕТ</street>
+                <block></block>
+                <building></building>
+                <apartment></apartment>
+                <city>НЕТ</city>
+                <countryCode></countryCode>
+                <addressType>1</addressType>
+                <addressTypeText>Адрес прописки</addressTypeText>
+                <lastUpdatedDt>2013-04-22</lastUpdatedDt>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+                <disputedStatus></disputedStatus>
+                <disputedRemarks></disputedRemarks>
+            </AddressReply>
+            <AddressReply>
+                <serialNum>497109452</serialNum>
+                <fileSinceDt>2013-04-22</fileSinceDt>
+                <district></district>
+                <houseNumber></houseNumber>
+                <street>НЕТ</street>
+                <block></block>
+                <building></building>
+                <apartment></apartment>
+                <city>НЕТ</city>
+                <countryCode></countryCode>
+                <addressType>2</addressType>
+                <addressTypeText>Адрес проживания</addressTypeText>
+                <lastUpdatedDt>2013-04-22</lastUpdatedDt>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+                <disputedStatus></disputedStatus>
+                <disputedRemarks></disputedRemarks>
+            </AddressReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687672212</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687636325</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687636318</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687634847</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687634836</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687625962</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687625957</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687609920</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687609911</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687519222</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>687519202</inqControlNum>
+                <inquiryPeriod>последние 7 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>7000</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>665691811</inqControlNum>
+                <inquiryPeriod>последние 60 дней</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>0</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>329507938</inqControlNum>
+                <inquiryPeriod>более 1 года</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>0</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference>NONE</userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>290086785</inqControlNum>
+                <inquiryPeriod>более 1 года</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>0</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference>NONE</userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <InquiryReply>
+                <serialNum>0</serialNum>
+                <inqControlNum>240079938</inqControlNum>
+                <inquiryPeriod>более 1 года</inquiryPeriod>
+                <inqPurpose>99</inqPurpose>
+                <inqPurposeText>Неизвестно</inqPurposeText>
+                <inqAmount>0</inqAmount>
+                <currencyCode>RUB</currencyCode>
+                <userReference></userReference>
+                <freezeFlag>0</freezeFlag>
+                <suppressFlag>0</suppressFlag>
+            </InquiryReply>
+            <OwnInquiries>
+                <Inquiry>
+                    <inqControlNum>687672212</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687636325</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687636318</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687634847</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687634836</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687625962</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687625957</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687609920</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687609911</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687519222</inqControlNum>
+                </Inquiry>
+                <Inquiry>
+                    <inqControlNum>687519202</inqControlNum>
+                </Inquiry>
+            </OwnInquiries>
+            <addOns></addOns>
+            <calc>
+                <totalAccts>0</totalAccts>
+                <totalActiveBalanceAccounts>0</totalActiveBalanceAccounts>
+                <negativeRating>0</negativeRating>
+                <totalOfficialInfo>0</totalOfficialInfo>
+                <totalLegalItems>0</totalLegalItems>
+                <totalBankruptcies>0</totalBankruptcies>
+                <totalInquiries>15</totalInquiries>
+                <recentInquiries>11</recentInquiries>
+                <collectionsInquiries>12</collectionsInquiries>
+                <mostRecentInqText>последние 7 дней</mostRecentInqText>
+                <reportIssueDateTime>2016-10-12T18:04:08.911+03:00</reportIssueDateTime>
+                <totalDisputedAccounts>0</totalDisputedAccounts>
+                <totalDisputedBankruptcy>0</totalDisputedBankruptcy>
+                <totalDisputedLegalItem>0</totalDisputedLegalItem>
+                <totalDisputedOfficialInfo>0</totalDisputedOfficialInfo>
+                <totalIPRecords>0</totalIPRecords>
+                <totalRejectedIPRecords>0</totalRejectedIPRecords>
+                <totalApprovedIPRecords>0</totalApprovedIPRecords>
+                <totalDefaultFlagIPRecords>0</totalDefaultFlagIPRecords>
+                <totalDisputedIPItem>0</totalDisputedIPItem>
+            </calc>
+            <groups></groups>
+            <inqControlNum>687672218</inqControlNum>
+            <MemberCodeStatus></MemberCodeStatus>
+        </report>
+    </preply>
+</product>
+
+<NBKI>
+        <product_NBKI>
+            <prequest_NBKI>
+                <req_NBKI IOType="B2B" OutputFormat="XML" lang="ru">
+                    <Address_NBKI addressType="1" apartment="63" city="г Подольск, мкр Климовск" houseNumber="д 16" postal="142184" street="пр-кт 50- летия Октября"/>
+                    <Address_NBKI addressType="2" apartment="63" city="г Подольск, мкр Климовск" houseNumber="д 16 " postal="142184" street="пр-кт 50- летия Октября"/>
+                    <Id_NBKI idNum="389591" idType="21" idTypeText="Паспорт гражданина РФ" issueAuthority="отделением в гор. климовске оуфмс россии по московской обл. в гор. подольск" issueCountry="отделением в гор. климовске оуфмс россии по московской обл. в гор. подольск" issueDate="2010-05-20" seriesNumber="4611"/>
+                    <Inquiry_NBKI currencyCode="RUB" inqAmount="7000" inqPurpose="99">
+                        <ConsentReq_NBKI consentDate="2007-05-28" consentExpireDate="2018-05-28" consentFlag="Y" consentPurpose="2" liability="Y" reportUser="ООО Микрофинансовая организация  &#34;Домашние деньги&#34;"/>
+                    </Inquiry_NBKI>
+                    <Person_NBKI birthDt="1988-11-25" first="ПАВЕЛ" name1="АБРАМОВ" paternal="ВАДИМОВИЧ" placeOfBirth="г Подольск "/>
+                    <Requestor_NBKI MemberCode="QH01LL000000" UserID="QH01LL000003"/>
+                    <Ref_NBKI product="CHST"/>
+                </req_NBKI>
+            </prequest_NBKI>
+            <preply_NBKI>
+                <report_NBKI MemberCodeStatus="" addOns="" groups="" inqControlNum="687672218">
+                    <Subject_NBKI fileSinceDt="2013-04-22" lastUpdatedDt="2013-04-22"/>
+                    <Person_NBKI birthDt="1988-11-25" dataValidity="" disputedRemarks="" disputedStatus="" fileSinceDt="2013-04-22" first="ПАВЕЛ" freezeFlag="0" lastUpdatedDt="2013-04-22" name1="АБРАМОВ" nationality="" paternal="ВАДИМОВИЧ" placeOfBirth="КЛИМОВСК" serialNum="69355524" suppressFlag="0"/>
+                    <Id_NBKI dataValidity="" disputedRemarks="" disputedStatus="" fileSinceDt="2013-04-22" freezeFlag="0" idNum="022053" idType="21" idTypeText="Паспорт гражданина РФ" issueAuthority="НЕТ" issueCountry="НЕТ" issueDate="2010-05-20" lastUpdatedDt="2013-04-22" serialNum="251164369" seriesNumber="4611" suppressFlag="0"/>
+                    <Address_NBKI addressType="1" addressTypeText="Адрес прописки" apartment="" block="" building="" city="НЕТ" countryCode="" disputedRemarks="" disputedStatus="" district="" fileSinceDt="2013-04-22" freezeFlag="0" houseNumber="" lastUpdatedDt="2013-04-22" serialNum="497109450" street="НЕТ" suppressFlag="0"/>
+                    <Address_NBKI addressType="2" addressTypeText="Адрес проживания" apartment="" block="" building="" city="НЕТ" countryCode="" disputedRemarks="" disputedStatus="" district="" fileSinceDt="2013-04-22" freezeFlag="0" houseNumber="" lastUpdatedDt="2013-04-22" serialNum="497109452" street="НЕТ" suppressFlag="0"/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687672212" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687636325" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687636318" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687634847" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687634836" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687625962" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687625957" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687609920" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687609911" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687519222" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687519202" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="665691811" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 60 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="329507938" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="более 1 года" serialNum="0" suppressFlag="0" userReference="NONE"/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="290086785" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="более 1 года" serialNum="0" suppressFlag="0" userReference="NONE"/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="240079938" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="более 1 года" serialNum="0" suppressFlag="0" userReference=""/>
+                    <OwnInquiries_NBKI>
+                        <Inquiry_NBKI inqControlNum="687672212"/>
+                        <Inquiry_NBKI inqControlNum="687636325"/>
+                        <Inquiry_NBKI inqControlNum="687636318"/>
+                        <Inquiry_NBKI inqControlNum="687634847"/>
+                        <Inquiry_NBKI inqControlNum="687634836"/>
+                        <Inquiry_NBKI inqControlNum="687625962"/>
+                        <Inquiry_NBKI inqControlNum="687625957"/>
+                        <Inquiry_NBKI inqControlNum="687609920"/>
+                        <Inquiry_NBKI inqControlNum="687609911"/>
+                        <Inquiry_NBKI inqControlNum="687519222"/>
+                        <Inquiry_NBKI inqControlNum="687519202"/>
+                    </OwnInquiries_NBKI>
+                    <Calculations_NBKI collectionsInquiries="12" mostRecentInqText="последние 7 дней" negativeRating="0" recentInquiries="11" reportIssueDateTime="2016-10-12" totalAccts="0" totalActiveBalanceAccounts="0" totalApprovedIPRecords="0" totalBankruptcies="0" totalDefaultFlagIPRecords="0" totalDisputedAccounts="0" totalDisputedBankruptcy="0" totalDisputedIPItem="0" totalDisputedLegalItem="0" totalDisputedOfficialInfo="0" totalIPRecords="0" totalInquiries="15" totalLegalItems="0" totalOfficialInfo="0" totalRejectedIPRecords="0"/>
+                </report_NBKI>
+            </preply_NBKI>
+        </product_NBKI>
+    </NBKI>
+
+        "<?xml version="1.0" encoding="UTF-8"?><Application DeliveryOptionCode="DD" ProcessingRequestType="DA" StrategySelectionRandomNumber="59" Timestamp="2016-10-12T18:04:08+03:00" TransactionId="167772191:-7b5e4a89:1578eae7a8e:-4b5d"><MessageList StatusCode="0" StatusDescription="Successful"/><CreditRequest ProductCategory="PDL"/><DecisionResponse><Product DecisionFlowName="df_DOUBLE_DATA" LastStepName="set_next_steps" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Complete" StrategyName="ps_pdl"/><Product DecisionFlowName="df_START" LastStepName="Set_next_step" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/><Product DecisionFlowName="df_AFS" LastStepName="Set_Next_Step" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/><Product DecisionFlowName="df_FSSP" LastStepName="Set_Next_Step" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/><Product DecisionFlowName="df_DD" LastStepName="set_next_step" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/><Product DecisionFlowName="df_PAY" LastStepName="set_next_step" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/><Product DecisionFlowName="df_FINKARTA" LastStepName="set_next_steps" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/><Product DecisionFlowName="df_QIWI" LastStepName="set_next_steps" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/><Product DecisionFlowName="df_EQI" LastStepName="set_next_steps" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/><Product DecisionFlowName="df_FPS" LastStepName="set_next_steps" OriginType="Request" ProductCategory="PDL" ProductCode="pdln" ProductStatusIndicator="Old" StrategyName="ps_pdl"/>
+
+</DecisionResponse><ProcessingHistory ProcessingTimestamp="2016-10-12T18:04:08.091+03:00" SystemId="DD">
+    <DecisionFlowHistory DecisionFlowName="df_DOUBLE_DATA" ProductCategory="PDL" ProductCode="pdln" StartTimestamp="2016-10-12T18:04:08.091+03:00" StopTimestamp="2016-10-12T18:04:08.108+03:00" SystemDecisionResult="">
+        <DecisionFlowStepHistory ImplementationName="rs_EQI_add_limit" ImplementationType="Ruleset" StartTimestamp="2016-10-12T18:04:08.091+03:00" StepName="add_limit" StopTimestamp="2016-10-12T18:04:08.091+03:00">
+            <RulesetHistory RulesFiredTotalSeverity="0" RulesetName="rs_EQI_add_limit" RulesetResult="Otherwise"/>
+        </DecisionFlowStepHistory>
+        <DecisionFlowStepHistory ImplementationName="dms_set_next_step" ImplementationType="Data Method Sequence" StartTimestamp="2016-10-12T18:04:08.091+03:00" StepName="set_next_steps" StopTimestamp="2016-10-12T18:04:08.108+03:00">
+            <DataMethodSequenceHistory DataMethodSequenceName="dms_set_next_step"/>
+        </DecisionFlowStepHistory>
+    </DecisionFlowHistory>
+</ProcessingHistory><AXI><application_e ApplicationDate="2016-10-12" ApplicationId="a128b296-2266-44a6-a0d4-61ff43e08e52" add_doc_inn="" add_doc_snils="13545473059" approve_outer_request_flg="Y" bank_account_bik="" bank_account_number="" call_name="NBKI" card_exp_date="2016-12-31" card_number="1234567891234567" client_birthdate="1988-11-25" client_middlename="ВАДИМОВИЧ" client_name="ПАВЕЛ" client_surname="АБРАМОВ" consentDate="2016-10-04" consentExpirDate="2050-01-01" consentFlag="Y" consentPurpose="1" email="ky3mi488@maik.ru" gender="1" initial_limit="7000.00" initial_maturity="7" liability="Y" liv_address_city="г Подольск, мкр Климовск" liv_address_flat="63" liv_address_house="д 16 " liv_address_house_bld="" liv_address_house_corp="" liv_address_index="142184" liv_address_region="50" liv_address_street="пр-кт 50- летия Октября" method_credit="01" mob_phone_num="9262648873" otherConsentPurpose="" pasp_birthplace="г Подольск " pass_code="500-124" pass_date_issue="2010-05-20" pass_issued="отделением в гор. климовске оуфмс россии по московской обл. в гор. подольск" pass_number="389591" pass_seria="4611" qiwi_wallet_num="" reg_address_city="г Подольск, мкр Климовск" reg_address_flat="63" reg_address_house="д 16" reg_address_house_bld="" reg_address_house_corp="" reg_address_index="142184" reg_address_region="50" reg_address_street="пр-кт 50- летия Октября" reportUser="DD_online" ya_wallet_num=""><product_e program_max_lim="7000.0"/><calc payment_method_cnt="1" pre_limit="0.0"/><innerCH DD_active_app_flg="0" DD_died_flg="0" DD_last_cred_live_addr_is_equal_flg="0" DD_last_cred_mobile_is_equal_flg="0" DD_last_cred_pass_is_equal_flg="0" DD_last_cred_reg_addr_is_equal_flg="0" DD_live_addr_is_equal_flg="0" DD_many_apps_flg="0" DD_mobile_is_equal_flg="0" DD_pass_is_equal_flg="0" DD_reg_addr_is_equal_flg="0" NumPaid="0" account_current_limit="0.00" active_app_flg="0" active_cred_balance="0" active_cred_current_DD_overdue_days="0" active_cred_max_DD_overdue_days="0" active_cred_overdue_sum="0" active_cred_ratio_balance="0" active_cred_ratio_term="0" age="25" applicant_bl_flg="0" card_current_limit="0.00" close_active_cred_flg="0" current_cred_DD_flg="0" current_cred_flg="0" day_current_limit="2000.00" fms_decline_flg="0" id_device="" inn_is_valid_flg="1" ip_device="" is_client_DD_flg="0" is_preapproved="0" last_cred_close_dt="1991-01-01" last_cred_is_cession_flg="0" last_cred_is_fraud_flg="0" last_cred_is_paid_flg="0" last_cred_max_overdue_days="0" live_addr_bl_flg="0" live_addr_sum="0.00" live_region_bl_flg="0" max_total_overdue_days="0" mob_phone_bl_flg="0" moratory_flg="0" negative_flg="0" num_paid_credits="0" pass_bl_flg="0" preapproved_limit="0" qiwi_current_limit="0.00" recent_agent_decline_flg="0" recent_client_decline_flg="0" recent_postver_decline_flg="0" recent_score_decline_flg="0" recent_verif_decline_flg="0" reg_addr_bl_flg="0" reg_addr_sum="0.00" reg_region_bl_flg="0" region_mob_bl_flg="0" region_site_bl_flg="0" repeated_DD_flg="0" repeated_flg="0" snils_is_valid_flg="1" terrorist_flg="0" unistream_current_limit="0.00" yandex_current_limit="0.00"><DataMethodHistory Timestamp="2016-10-12T18:02:44.657+03:00"><Name>dm_dd_last_cred</Name><DataType>numeric</DataType><Value>9416.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.657+03:00"><Name>dm_dd_last_cred</Name><DataType>numeric</DataType><Value>9416.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.657+03:00"><Name>dm_dd_last_cred</Name><DataType>numeric</DataType><Value>9416.0</Value>
+
+
+
+</DataMethodHistory>
+
+
+
+</innerCH><decision_e/><policyRules/><score/><verif/><Equifax><response_Eq responsecode="1" responsestring="Заемщик найден"><title_part_Eq><private_Eq birthday="25.11.1988" birthplace="Г ПОДОЛЬСК " firstname="ПАВЕЛ" lastname="АБРАМОВ" middlename="ВАДИМОВИЧ">
+    <doc_Eq docdate="20.05.2010" docno="4611389591" docplace="ОТДЕЛЕНИЕМ В ГОР. КЛИМОВСКЕ ОУФМС РОССИИ ПО МОСКОВСКОЙ ОБЛ. В ГОР. ПОДОЛЬСК" doctype="1"/>
+    <history_title_Eq date="04.09.2013" firstname="ПАВЕЛ" lastname="АБРАМОВ" middlename="ВАДИМОВИЧ">
+        <doc_Eq docdate="20.05.2010" docno="4611022053" docplace="ОТД.В ГОРОДЕ КЛИМОВСКЕ ОУФМС РОССИИ ПО МО.В Г.ПОДОЛЬСКЕ ОТД.В ГОРОДЕ КЛИМОВСКЕ ОУФМС Р" doctype="1"/>
+    </history_title_Eq>
+</private_Eq>
+
+</title_part_Eq><add_part_Eq><interest_Eq day="3" hour="0" month="0" quarter="0" week="2" year="0"/><own_interest_Eq day="3" hour="0" month="0" quarter="0" week="2" year="0"/><scorings_Eq><scoring_Eq scor_card_id="16" scor_id="1476284631015" scor_name="Скоринг для МФО 2.0 (одноразовое погашение)" score="554"/>
+
+</scorings_Eq><info_requests_Eq><request_Eq cred_partner_type="1" timeslot="week"/><request_Eq cred_partner_type="1" timeslot="day"/><request_Eq cred_partner_type="1" timeslot="week"/><request_Eq cred_partner_type="1" timeslot="day"/><request_Eq cred_partner_type="1" timeslot="day"/>
+
+
+
+
+
+</info_requests_Eq>
+
+
+
+
+</add_part_Eq>
+
+
+</response_Eq>
+
+</Equifax><FPS><outputVectorResponse_FPS applicationid="1813299411" applicationsfound="85" mainrules="1.11=&gt;0;1.12=&gt;0;1.13=&gt;0;1.14=&gt;0;1.15=&gt;0;1.16=&gt;0;1.17=&gt;0;1.18=&gt;0;1.19=&gt;0;1.20=&gt;0;1.21=&gt;0;2.11=&gt;0;2.12=&gt;0;2.13=&gt;0;2.14=&gt;0;2.15=&gt;0;2.16=&gt;0;2.17=&gt;0;2.18=&gt;0;2.19=&gt;0;2.20=&gt;0;2.21=&gt;0;2.22=&gt;0;2.23=&gt;0;2.24=&gt;0;2.25=&gt;0;2.26=&gt;0;2.27=&gt;0;2.28=&gt;0;2.29=&gt;0;2.30=&gt;0;2.31=&gt;0;2.32=&gt;0;2.33=&gt;0;2.34=&gt;0;2.35=&gt;0;2.36=&gt;0;2.37=&gt;0;2.38=&gt;0;" mainscorevalue="0" specificrules="" status="0"/>
+
+</FPS><AFS><response_AFS action="matchupdate" appId="QH01LL:1355813632" appVersion="1" appsCount="1" correlationId="" duration="13" matchCount="1" ruleSetId="MAIN_2" rulesCount="1"><matchResult_AFS><match_MR_AFS appId="74947627" appVersion="1" rule="RULE_19_2"/>
+
+</matchResult_AFS>
+
+</response_AFS>
+
+</AFS><FinKarta check_hash="" xsd=""><response_FK>
+    <person_FK record_id="1">
+        <rules_FK rule="">
+            <rule_FK data_record_id="" level_1="A" level_2="A1" level_3="" rule_date="2016-10-10 00:00:00" rule_flag="1" rule_id="1" rule_name="SA" rule_value="2"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A9" level_3="" rule_date="" rule_flag="0" rule_id="2" rule_name="Num_srcs" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="" rule_date="" rule_flag="0" rule_id="3" rule_name="Num_All_PL" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.0" rule_date="" rule_flag="0" rule_id="4" rule_name="Num_All_PL_0" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.1" rule_date="" rule_flag="0" rule_id="5" rule_name="Num_All_PL_1" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.2" rule_date="" rule_flag="0" rule_id="6" rule_name="Num_All_PL_2" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.3" rule_date="" rule_flag="0" rule_id="7" rule_name="Num_All_PL_3" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.4" rule_date="" rule_flag="0" rule_id="8" rule_name="Num_All_PL_4" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.5" rule_date="" rule_flag="0" rule_id="9" rule_name="Num_All_PL_5" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.6" rule_date="" rule_flag="0" rule_id="10" rule_name="Num_All_PL_6" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.7" rule_date="" rule_flag="0" rule_id="11" rule_name="Num_All_PL_7" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.8" rule_date="" rule_flag="0" rule_id="12" rule_name="Num_All_PL_8" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.9" rule_date="" rule_flag="0" rule_id="13" rule_name="Num_All_PL_9" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A2" level_3="A2.10" rule_date="" rule_flag="0" rule_id="14" rule_name="Num_All_PL_10" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="" rule_date="" rule_flag="0" rule_id="15" rule_name="Num_PL" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.0" rule_date="" rule_flag="0" rule_id="16" rule_name="Num_PL_0" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.1" rule_date="" rule_flag="0" rule_id="17" rule_name="Num_PL_1" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.2" rule_date="" rule_flag="0" rule_id="18" rule_name="Num_PL_2" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.3" rule_date="" rule_flag="0" rule_id="19" rule_name="Num_PL_3" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.4" rule_date="" rule_flag="0" rule_id="20" rule_name="Num_PL_4" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.5" rule_date="" rule_flag="0" rule_id="21" rule_name="Num_PL_5" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.6" rule_date="" rule_flag="0" rule_id="22" rule_name="Num_PL_6" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.7" rule_date="" rule_flag="0" rule_id="23" rule_name="Num_PL_7" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.8" rule_date="" rule_flag="0" rule_id="24" rule_name="Num_PL_8" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.9" rule_date="" rule_flag="0" rule_id="25" rule_name="Num_PL_9" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A3" level_3="A3.10" rule_date="" rule_flag="0" rule_id="26" rule_name="Num_PL_10" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="27" rule_name="Num_Req_All" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.1_all" rule_date="" rule_flag="0" rule_id="28" rule_name="NumR_OD_all" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.1_30" rule_date="" rule_flag="0" rule_id="29" rule_name="NumR_OD_30" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.1_60" rule_date="" rule_flag="0" rule_id="30" rule_name="NumR_OD_60" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.1_90" rule_date="" rule_flag="0" rule_id="31" rule_name="NumR_OD_90" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.1_120" rule_date="" rule_flag="0" rule_id="32" rule_name="NumR_OD_120" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.1_180" rule_date="" rule_flag="0" rule_id="33" rule_name="NumR_OD_180" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.1_360" rule_date="" rule_flag="0" rule_id="34" rule_name="NumR_OD_360" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.1_360more" rule_date="" rule_flag="0" rule_id="35" rule_name="NumR_OD_360more" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.2_all" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="36" rule_name="NumR_DIL_all" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.2_30" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="37" rule_name="NumR_DIL_30" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.2_60" rule_date="" rule_flag="0" rule_id="38" rule_name="NumR_DIL_60" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.2_90" rule_date="" rule_flag="0" rule_id="39" rule_name="NumR_DIL_90" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.2_120" rule_date="" rule_flag="0" rule_id="40" rule_name="NumR_DIL_120" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.2_180" rule_date="" rule_flag="0" rule_id="41" rule_name="NumR_DIL_180" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.2_360" rule_date="" rule_flag="0" rule_id="42" rule_name="NumR_DIL_360" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A4" level_3="A4.2_360more" rule_date="" rule_flag="0" rule_id="43" rule_name="NumR_DIL_360more" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A10" level_3="" rule_date="" rule_flag="0" rule_id="44" rule_name="PID" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="" rule_date="" rule_flag="0" rule_id="45" rule_name="Num_Type_Contact" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.1" rule_date="" rule_flag="0" rule_id="46" rule_name="Num_Type_Contact_1" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.2" rule_date="" rule_flag="0" rule_id="47" rule_name="Num_Type_Contact_2" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.3" rule_date="" rule_flag="0" rule_id="48" rule_name="Num_Type_Contact_3" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.4" rule_date="" rule_flag="0" rule_id="49" rule_name="Num_Type_Contact_4" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.5" rule_date="" rule_flag="0" rule_id="50" rule_name="Num_Type_Contact_5" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.7" rule_date="" rule_flag="0" rule_id="51" rule_name="Num_Type_Contact_7" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.8" rule_date="" rule_flag="0" rule_id="52" rule_name="Num_Type_Contact_8" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.9" rule_date="" rule_flag="0" rule_id="53" rule_name="Num_Type_Contact_9" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C3" level_3="C3.10" rule_date="" rule_flag="0" rule_id="54" rule_name="Num_Type_Contact_10" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="C6.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="55" rule_name="Num_Cont_Inf_Mob" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="C6.2" rule_date="" rule_flag="0" rule_id="56" rule_name="Num_Cont_Inf_Home" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="C6.3" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="57" rule_name="Num_Cont_Inf_Work" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="C6.4" rule_date="" rule_flag="0" rule_id="58" rule_name="Num_Cont_Inf_Other" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="C6.5" rule_date="" rule_flag="1" rule_id="59" rule_name="Num_Cont_Inf_Email" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="C6.6" rule_date="" rule_flag="0" rule_id="60" rule_name="Num_Cont_Inf_Soc" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="C6.7" rule_date="" rule_flag="0" rule_id="61" rule_name="Num_Cont_Inf_addrH" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="C6.8" rule_date="" rule_flag="0" rule_id="62" rule_name="Num_Cont_Inf_addrR" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="C" level_2="C6" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="63" rule_name="Num_Cont_Inf" rule_value="3"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D1" level_3="D1" rule_date="" rule_flag="0" rule_id="64" rule_name="Num_LastPayment" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D1" level_3="D1.1" rule_date="" rule_flag="0" rule_id="65" rule_name="Num_LastPayment_30" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D1" level_3="D1.2" rule_date="" rule_flag="0" rule_id="66" rule_name="Num_LastPayment_60" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D1" level_3="D1.3" rule_date="" rule_flag="0" rule_id="67" rule_name="Num_LastPayment_90" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D1" level_3="D1.4" rule_date="" rule_flag="0" rule_id="68" rule_name="Num_LastPayment_120" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D1" level_3="D1.5" rule_date="" rule_flag="0" rule_id="69" rule_name="Num_LastPayment_180" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D1" level_3="D1.6" rule_date="" rule_flag="0" rule_id="70" rule_name="Num_LastPayment_360" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D1" level_3="D1.7" rule_date="" rule_flag="0" rule_id="71" rule_name="Num_LastPayment_360more" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D2" level_3="D2" rule_date="" rule_flag="0" rule_id="72" rule_name="Sum_LastPayment" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D2" level_3="D2.1" rule_date="" rule_flag="0" rule_id="73" rule_name="Sum_LastPayment_30" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D2" level_3="D2.2" rule_date="" rule_flag="0" rule_id="74" rule_name="Sum_LastPayment_60" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D2" level_3="D2.3" rule_date="" rule_flag="0" rule_id="75" rule_name="Sum_LastPayment_90" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D2" level_3="D2.4" rule_date="" rule_flag="0" rule_id="76" rule_name="Sum_LastPayment_120" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D2" level_3="D2.5" rule_date="" rule_flag="0" rule_id="77" rule_name="Sum_LastPayment_180" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D2" level_3="D2.6" rule_date="" rule_flag="0" rule_id="78" rule_name="Sum_LastPayment_360" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="D" level_2="D2" level_3="D2.7" rule_date="" rule_flag="0" rule_id="79" rule_name="Sum_LastPayment_360more" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E1" level_3="E1" rule_date="" rule_flag="0" rule_id="80" rule_name="Num_promise" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E1" level_3="E1.1" rule_date="" rule_flag="0" rule_id="81" rule_name="Num_promise_30" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E1" level_3="E1.2" rule_date="" rule_flag="0" rule_id="82" rule_name="Num_promise_60" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E1" level_3="E1.3" rule_date="" rule_flag="0" rule_id="83" rule_name="Num_promise_90" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E1" level_3="E1.4" rule_date="" rule_flag="0" rule_id="84" rule_name="Num_promise_120" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E1" level_3="E1.5" rule_date="" rule_flag="0" rule_id="85" rule_name="Num_promise_180" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E1" level_3="E1.6" rule_date="" rule_flag="0" rule_id="86" rule_name="Num_promise_360" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E1" level_3="E1.7" rule_date="" rule_flag="0" rule_id="87" rule_name="Num_promise_360more" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E2" level_3="E2" rule_date="" rule_flag="0" rule_id="88" rule_name="Sum_promise" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E2" level_3="E2.1" rule_date="" rule_flag="0" rule_id="89" rule_name="Sum_promise_30" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E2" level_3="E2.2" rule_date="" rule_flag="0" rule_id="90" rule_name="Sum_promise_60" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E2" level_3="E2.3" rule_date="" rule_flag="0" rule_id="91" rule_name="Sum_promise_90" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E2" level_3="E2.4" rule_date="" rule_flag="0" rule_id="92" rule_name="Sum_promise_120" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E2" level_3="E2.5" rule_date="" rule_flag="0" rule_id="93" rule_name="Sum_promise_180" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E2" level_3="E2.6" rule_date="" rule_flag="0" rule_id="94" rule_name="Sum_promise_360" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E2" level_3="E2.7" rule_date="" rule_flag="0" rule_id="95" rule_name="Sum_promise_360more" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="E" level_2="E4" level_3="" rule_date="" rule_flag="0" rule_id="96" rule_name="Debt_NumAlloc" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A12" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="97" rule_name="Num_passprt_SP" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A12" level_3="A12.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="98" rule_name="Num_passprt_SP30" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A12" level_3="A12.2" rule_date="" rule_flag="0" rule_id="99" rule_name="Num_passprt_SP60" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A12" level_3="A12.3" rule_date="" rule_flag="0" rule_id="100" rule_name="Num_passprt_SP90" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A12" level_3="A12.4" rule_date="" rule_flag="0" rule_id="101" rule_name="Num_passprt_SP120" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A12" level_3="A12.5" rule_date="" rule_flag="0" rule_id="102" rule_name="Num_passprt_SP180" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A12" level_3="A12.6" rule_date="" rule_flag="0" rule_id="103" rule_name="Num_passprt_SP360" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A12" level_3="A12.7" rule_date="" rule_flag="0" rule_id="104" rule_name="Num_passprt_SP360more" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A13" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="105" rule_name="Num_Passprt_Contact" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A13" level_3="A13.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="106" rule_name="Num_Passprt_Contact30" rule_value="1"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A13" level_3="A13.2" rule_date="" rule_flag="0" rule_id="107" rule_name="Num_Passprt_Contact60" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A13" level_3="A13.3" rule_date="" rule_flag="0" rule_id="108" rule_name="Num_Passprt_Contact90" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A13" level_3="A13.4" rule_date="" rule_flag="0" rule_id="109" rule_name="Num_Passprt_Contact120" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A13" level_3="A13.5" rule_date="" rule_flag="0" rule_id="110" rule_name="Num_Passprt_Contact180" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A13" level_3="A13.6" rule_date="" rule_flag="0" rule_id="111" rule_name="Num_Passprt_Contact360" rule_value="0"/>
+            <rule_FK data_record_id="" level_1="A" level_2="A13" level_3="A13.7" rule_date="" rule_flag="0" rule_id="112" rule_name="Num_Passprt_Contact360more" rule_value="0"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I3" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="113" rule_name="Num_cellph_SP" rule_value="15976"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I3" level_3="I3.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="114" rule_name="Num_cellph_SP30" rule_value="95"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I3" level_3="I3.2" rule_date="2016-09-11 00:00:00" rule_flag="1" rule_id="115" rule_name="Num_cellph_SP60" rule_value="69"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I3" level_3="I3.3" rule_date="2016-08-11 00:00:00" rule_flag="1" rule_id="116" rule_name="Num_cellph_SP90" rule_value="61"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I3" level_3="I3.4" rule_date="2016-07-13 00:00:00" rule_flag="1" rule_id="117" rule_name="Num_cellph_SP120" rule_value="52"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I3" level_3="I3.5" rule_date="2016-06-13 00:00:00" rule_flag="1" rule_id="118" rule_name="Num_cellph_SP180" rule_value="28"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I3" level_3="I3.6" rule_date="2016-02-25 00:00:00" rule_flag="1" rule_id="119" rule_name="Num_cellph_SP360" rule_value="14000"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I3" level_3="I3.7" rule_date="2015-08-07 00:00:00" rule_flag="1" rule_id="120" rule_name="Num_cellph_SP360more" rule_value="1676"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I8" level_3="" rule_date="2016-10-10 00:00:00" rule_flag="1" rule_id="121" rule_name="Num_Cont_Phn" rule_value="1"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I8" level_3="I8.1" rule_date="2016-10-10 00:00:00" rule_flag="1" rule_id="122" rule_name="Num_Cont_Phn30" rule_value="1"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I8" level_3="I8.2" rule_date="" rule_flag="0" rule_id="123" rule_name="Num_Cont_Phn60" rule_value="0"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I8" level_3="I8.3" rule_date="" rule_flag="0" rule_id="124" rule_name="Num_Cont_Phn90" rule_value="0"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I8" level_3="I8.4" rule_date="" rule_flag="0" rule_id="125" rule_name="Num_Cont_Phn120" rule_value="0"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I8" level_3="I8.5" rule_date="" rule_flag="0" rule_id="126" rule_name="Num_Cont_Phn180" rule_value="0"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I8" level_3="I8.6" rule_date="" rule_flag="0" rule_id="127" rule_name="Num_Cont_Phn360" rule_value="0"/>
+            <rule_FK data_record_id="2850540" level_1="I" level_2="I8" level_3="I8.7" rule_date="" rule_flag="0" rule_id="128" rule_name="Num_Cont_Phn360more" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I3" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="129" rule_name="Num_cellph_SP" rule_value="1"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I3" level_3="I3.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="130" rule_name="Num_cellph_SP30" rule_value="1"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I3" level_3="I3.2" rule_date="" rule_flag="0" rule_id="131" rule_name="Num_cellph_SP60" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I3" level_3="I3.3" rule_date="" rule_flag="0" rule_id="132" rule_name="Num_cellph_SP90" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I3" level_3="I3.4" rule_date="" rule_flag="0" rule_id="133" rule_name="Num_cellph_SP120" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I3" level_3="I3.5" rule_date="" rule_flag="0" rule_id="134" rule_name="Num_cellph_SP180" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I3" level_3="I3.6" rule_date="" rule_flag="0" rule_id="135" rule_name="Num_cellph_SP360" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I3" level_3="I3.7" rule_date="" rule_flag="0" rule_id="136" rule_name="Num_cellph_SP360more" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I8" level_3="" rule_date="2016-10-10 00:00:00" rule_flag="1" rule_id="137" rule_name="Num_Cont_Phn" rule_value="1"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I8" level_3="I8.1" rule_date="2016-10-10 00:00:00" rule_flag="1" rule_id="138" rule_name="Num_Cont_Phn30" rule_value="1"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I8" level_3="I8.2" rule_date="" rule_flag="0" rule_id="139" rule_name="Num_Cont_Phn60" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I8" level_3="I8.3" rule_date="" rule_flag="0" rule_id="140" rule_name="Num_Cont_Phn90" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I8" level_3="I8.4" rule_date="" rule_flag="0" rule_id="141" rule_name="Num_Cont_Phn120" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I8" level_3="I8.5" rule_date="" rule_flag="0" rule_id="142" rule_name="Num_Cont_Phn180" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I8" level_3="I8.6" rule_date="" rule_flag="0" rule_id="143" rule_name="Num_Cont_Phn360" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="I" level_2="I8" level_3="I8.7" rule_date="" rule_flag="0" rule_id="144" rule_name="Num_Cont_Phn360more" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M1" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="0" rule_id="145" rule_name="cardFound" rule_value="false"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M21" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="146" rule_name="cntcardusers" rule_value="1"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M22" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="147" rule_name="cntusercards_all" rule_value="2"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M22" level_3="M22.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="148" rule_name="cntusercards_30" rule_value="2"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M22" level_3="M22.2" rule_date="" rule_flag="0" rule_id="149" rule_name="cntusercards_60" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M22" level_3="M22.3" rule_date="" rule_flag="0" rule_id="150" rule_name="cntusercards_90" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M22" level_3="M22.4" rule_date="" rule_flag="0" rule_id="151" rule_name="cntusercards_120" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M22" level_3="M22.5" rule_date="" rule_flag="0" rule_id="152" rule_name="cntusercards_180" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M22" level_3="M22.6" rule_date="" rule_flag="0" rule_id="153" rule_name="cntusercards_360" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M22" level_3="M22.7" rule_date="" rule_flag="0" rule_id="154" rule_name="cntusercards_360more" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="M" level_2="M23" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="155" rule_name="NumCrdPhone_all" rule_value="2"/>
+            <rule_FK data_record_id="2850541" level_1="M" level_2="M23" level_3="M23.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="156" rule_name="NumCrdPhone_30" rule_value="2"/>
+            <rule_FK data_record_id="2850541" level_1="M" level_2="M23" level_3="M23.2" rule_date="" rule_flag="0" rule_id="157" rule_name="NumCrdPhone_60" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="M" level_2="M23" level_3="M23.3" rule_date="" rule_flag="0" rule_id="158" rule_name="NumCrdPhone_90" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="M" level_2="M23" level_3="M23.4" rule_date="" rule_flag="0" rule_id="159" rule_name="NumCrdPhone_120" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="M" level_2="M23" level_3="M23.5" rule_date="" rule_flag="0" rule_id="160" rule_name="NumCrdPhone_180" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="M" level_2="M23" level_3="M23.6" rule_date="" rule_flag="0" rule_id="161" rule_name="NumCrdPhone_360" rule_value="0"/>
+            <rule_FK data_record_id="2850541" level_1="M" level_2="M23" level_3="M23.7" rule_date="" rule_flag="0" rule_id="162" rule_name="NumCrdPhone_360more" rule_value="0"/>
+            <rule_FK data_record_id="2850540" level_1="M" level_2="M23" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="163" rule_name="NumCrdPhone_all" rule_value="572"/>
+            <rule_FK data_record_id="2850540" level_1="M" level_2="M23" level_3="M23.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="164" rule_name="NumCrdPhone_30" rule_value="96"/>
+            <rule_FK data_record_id="2850540" level_1="M" level_2="M23" level_3="M23.2" rule_date="2016-09-10 00:00:00" rule_flag="1" rule_id="165" rule_name="NumCrdPhone_60" rule_value="95"/>
+            <rule_FK data_record_id="2850540" level_1="M" level_2="M23" level_3="M23.3" rule_date="2016-08-11 00:00:00" rule_flag="1" rule_id="166" rule_name="NumCrdPhone_90" rule_value="81"/>
+            <rule_FK data_record_id="2850540" level_1="M" level_2="M23" level_3="M23.4" rule_date="2016-07-12 00:00:00" rule_flag="1" rule_id="167" rule_name="NumCrdPhone_120" rule_value="68"/>
+            <rule_FK data_record_id="2850540" level_1="M" level_2="M23" level_3="M23.5" rule_date="2016-06-11 00:00:00" rule_flag="1" rule_id="168" rule_name="NumCrdPhone_180" rule_value="28"/>
+            <rule_FK data_record_id="2850540" level_1="M" level_2="M23" level_3="M23.6" rule_date="2016-04-09 00:00:00" rule_flag="1" rule_id="169" rule_name="NumCrdPhone_360" rule_value="146"/>
+            <rule_FK data_record_id="2850540" level_1="M" level_2="M23" level_3="M23.7" rule_date="2015-10-02 00:00:00" rule_flag="1" rule_id="170" rule_name="NumCrdPhone_360more" rule_value="75"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M24" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="171" rule_name="NumCrdPassprt_all" rule_value="2"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M24" level_3="M24.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="172" rule_name="NumCrdPassprt_30" rule_value="2"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M24" level_3="M24.2" rule_date="" rule_flag="0" rule_id="173" rule_name="NumCrdPassprt_60" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M24" level_3="M24.3" rule_date="" rule_flag="0" rule_id="174" rule_name="NumCrdPassprt_90" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M24" level_3="M24.4" rule_date="" rule_flag="0" rule_id="175" rule_name="NumCrdPassprt_120" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M24" level_3="M24.5" rule_date="" rule_flag="0" rule_id="176" rule_name="NumCrdPassprt_180" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M24" level_3="M24.6" rule_date="" rule_flag="0" rule_id="177" rule_name="NumCrdPassprt_360" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M24" level_3="M24.7" rule_date="" rule_flag="0" rule_id="178" rule_name="NumCrdPassprt_360more" rule_value="0"/>
+            <rule_FK data_record_id="16193" level_1="M" level_2="M25" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="179" rule_name="NumCrdEmail_all" rule_value="2"/>
+            <rule_FK data_record_id="16193" level_1="M" level_2="M25" level_3="M25.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="180" rule_name="NumCrdEmail_30" rule_value="2"/>
+            <rule_FK data_record_id="16193" level_1="M" level_2="M25" level_3="M25.2" rule_date="" rule_flag="0" rule_id="181" rule_name="NumCrdEmail_60" rule_value="0"/>
+            <rule_FK data_record_id="16193" level_1="M" level_2="M25" level_3="M25.3" rule_date="" rule_flag="0" rule_id="182" rule_name="NumCrdEmail_90" rule_value="0"/>
+            <rule_FK data_record_id="16193" level_1="M" level_2="M25" level_3="M25.4" rule_date="" rule_flag="0" rule_id="183" rule_name="NumCrdEmail_120" rule_value="0"/>
+            <rule_FK data_record_id="16193" level_1="M" level_2="M25" level_3="M25.5" rule_date="" rule_flag="0" rule_id="184" rule_name="NumCrdEmail_180" rule_value="0"/>
+            <rule_FK data_record_id="16193" level_1="M" level_2="M25" level_3="M25.6" rule_date="" rule_flag="0" rule_id="185" rule_name="NumCrdEmail_360" rule_value="0"/>
+            <rule_FK data_record_id="16193" level_1="M" level_2="M25" level_3="M25.7" rule_date="" rule_flag="0" rule_id="186" rule_name="NumCrdEmail_360more" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M28" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="187" rule_name="cntcardsourses_all" rule_value="1"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M28" level_3="M28.1" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="188" rule_name="cntcardsourses_30" rule_value="1"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M28" level_3="M28.2" rule_date="" rule_flag="0" rule_id="189" rule_name="cntcardsourses_60" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M28" level_3="M28.3" rule_date="" rule_flag="0" rule_id="190" rule_name="cntcardsourses_90" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M28" level_3="M28.4" rule_date="" rule_flag="0" rule_id="191" rule_name="cntcardsourses_120" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M28" level_3="M28.5" rule_date="" rule_flag="0" rule_id="192" rule_name="cntcardsourses_180" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M28" level_3="M28.6" rule_date="" rule_flag="0" rule_id="193" rule_name="cntcardsourses_360" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M28" level_3="M28.7" rule_date="" rule_flag="0" rule_id="194" rule_name="cntcardsourses_360more" rule_value="0"/>
+            <rule_FK data_record_id="1" level_1="M" level_2="M36" level_3="" rule_date="2016-10-12 00:00:00" rule_flag="1" rule_id="195" rule_name="cntallcardsusers" rule_value="1"/>
+        </rules_FK>
+    </person_FK>
+</response_FK>
+
+</FinKarta><FSSP/><DoubleData><sa_response_DD sa_1="3" sa_10="0" sa_100="-" sa_101="-" sa_102="-" sa_103="-" sa_104="-" sa_105="-" sa_106="-" sa_107="-" sa_108="-" sa_109="-" sa_11="0" sa_110="-" sa_111="-" sa_112="-" sa_113="-" sa_114="-" sa_115="-" sa_116="-" sa_117="-" sa_118="-" sa_119="-" sa_12="0" sa_120="-" sa_121="-" sa_122="-" sa_123="-" sa_124="-" sa_125="-" sa_126="-" sa_127="-" sa_128="-" sa_129="-" sa_13="0" sa_130="-" sa_131="-" sa_132="-" sa_133="-" sa_134="-" sa_135="-" sa_136="-" sa_137="-" sa_138="-" sa_139="-" sa_14="0" sa_140="-" sa_141="-" sa_142="-" sa_143="-" sa_144="-" sa_145="-" sa_146="-" sa_147="-" sa_148="-" sa_149="-" sa_15="0" sa_150="-" sa_151="-" sa_152="-" sa_153="-" sa_154="-" sa_155="-" sa_156="-" sa_157="-" sa_158="-" sa_159="-" sa_16="4" sa_160="-" sa_161="-" sa_162="-" sa_163="-" sa_164="-" sa_165="-" sa_166="-" sa_167="-" sa_168="-" sa_169="-" sa_17="0.02893" sa_170="-" sa_171="-" sa_172="-" sa_173="-" sa_174="-" sa_175="-" sa_176="-" sa_177="-" sa_178="-" sa_179="-" sa_18="0.55785" sa_180="-" sa_181="-" sa_182="-" sa_183="-" sa_184="-" sa_185="-" sa_186="-" sa_187="-" sa_188="-" sa_189="-" sa_19="0.16942" sa_190="-" sa_191="-" sa_192="-" sa_193="-" sa_194="-" sa_195="-" sa_196="-" sa_197="-" sa_198="-" sa_199="-" sa_2="1" sa_20="173" sa_200="-" sa_21="309" sa_22="-" sa_23="-" sa_24="0" sa_25="0" sa_26="0" sa_27="0.63" sa_28="0.0" sa_29="0.0" sa_3="0" sa_30="1.0" sa_31="0.0" sa_32="0" sa_33="0" sa_34="0" sa_35="0" sa_36="0.00568" sa_37="25" sa_38="5" sa_39="22" sa_4="1" sa_40="-" sa_41="1" sa_42="2" sa_43="149" sa_44="5.39" sa_45="1" sa_46="0,0,0,10,10,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0" sa_47="1213" sa_48="0.14262" sa_49="0.03842" sa_5="0" sa_50="0.00691" sa_51="0.0037" sa_52="-" sa_53="-" sa_54="-" sa_55="-" sa_56="-" sa_57="-" sa_58="-" sa_59="-" sa_6="0" sa_60="-" sa_61="-" sa_62="-" sa_63="-" sa_64="-" sa_65="-" sa_66="-" sa_67="-" sa_68="-" sa_69="-" sa_7="0" sa_70="-" sa_71="-" sa_72="-" sa_73="-" sa_74="-" sa_75="-" sa_76="-" sa_77="-" sa_78="-" sa_79="-" sa_8="2012-02-27" sa_80="-" sa_81="-" sa_82="-" sa_83="-" sa_84="-" sa_85="-" sa_86="-" sa_87="-" sa_88="-" sa_89="-" sa_9="2008-03-26" sa_90="-" sa_91="-" sa_92="-" sa_93="-" sa_94="-" sa_95="-" sa_96="-" sa_97="-" sa_98="-" sa_99="-" social_hit="1" status="1"/>
+
+
+
+</DoubleData><DataMethodHistory Timestamp="2016-10-12T18:04:08.108+03:00">
+    <Name>dm_set_next_step</Name>
+    <DataType>string</DataType>
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.312+03:00"><Name>dm_fssp_sum_debt_hard</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.328+03:00"><Name>dm_fssp_count_debt_very_hard</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.328+03:00"><Name>dm_fssp_sum_debt</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.328+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.657+03:00"><Name>dm_dd_add_limit</Name><DataType>boolean</DataType><Value>false</Value><DataMethodOutput><Name>xLocal1</Name><DataType>numeric</DataType><Value>7000.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xprelim</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.642+03:00"><Name>dm_dd_full_house</Name><DataType>boolean</DataType><Value>false</Value><DataMethodOutput><Name>xLocal1</Name><DataType>numeric</DataType><Value>30000.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.673+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:40.552+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:49.403+03:00"><Name>dm_Finkarta_cut_limit</Name><DataType>string</DataType><DataMethodOutput><Name>xLocal1</Name><DataType>numeric</DataType><Value>10000.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:24.895+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:49.389+03:00"><Name>dm_pay_cnt</Name><DataType>numeric</DataType><Value>1.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:49.403+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:50.326+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_add_limit</Name><DataType>boolean</DataType><Value>false</Value><DataMethodOutput><Name>xLocal1</Name><DataType>numeric</DataType><Value>7000.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xLocal2</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xLocal5</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xLocal3</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xLocal7</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xLocal4</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xLocal6</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xprelim</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+
+
+
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_close_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.374+03:00"><Name>dm_eqi_current_overdue_sum</Name><DataType>numeric</DataType><Value>0.0</Value><DataMethodOutput><Name>xmax_overdue</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.374+03:00"><Name>dm_eqi_sum_current_pay</Name><DataType>numeric</DataType><Value>0.0</Value><DataMethodOutput><Name>xid2</Name><DataType>string</DataType><Value/>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xid</Name><DataType>string</DataType><Value/>
+
+
+
+</DataMethodOutput>
+
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.374+03:00"><Name>dm_eqi_count_active_microcred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.374+03:00"><Name>dm_eqi_count_active_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.374+03:00"><Name>dm_eqi_max_current_overdue_days</Name><DataType>numeric</DataType><Value>0.0</Value><DataMethodOutput><Name>xmax_overdue</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.374+03:00"><Name>dm_eqi_count_bankrot</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.374+03:00"><Name>dm_eqi_count_very_bad_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_active_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_max_current_overdue_days</Name><DataType>numeric</DataType><Value>0.0</Value><DataMethodOutput><Name>xmax_overdue</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_max_date_issue</Name><DataType>boolean</DataType><Value>true</Value><DataMethodOutput><Name>xmin</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_percent_close_cred</Name><DataType>numeric</DataType><Value>0.0</Value><DataMethodOutput><Name>xLocal2</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput><DataMethodOutput><Name>xLocal1</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_active_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_close_cred_last_year</Name><DataType>numeric</DataType><Value>0.0</Value><DataMethodOutput><Name>xmin</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_active_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_close_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_max_status_date</Name><DataType>boolean</DataType><Value>true</Value><DataMethodOutput><Name>xmin</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodOutput>
+
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_eqi_count_active_cred</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:03:51.39+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:38.996+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:04:06.845+03:00"><Name>dm_FPS</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:40.552+03:00"><Name>dm_AFS</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:02:44.312+03:00"><Name>dm_fssp_sum_debt_very_hard</Name><DataType>numeric</DataType><Value>0.0</Value>
+
+
+
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:04:08.108+03:00">
+    <Name>dm_eqi_add_limit</Name>
+    <DataType>boolean</DataType>
+    <Value>false</Value>
+    <DataMethodOutput>
+        <Name>xLocal7</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+    </DataMethodOutput>
+    <DataMethodOutput>
+        <Name>xLocal6</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+    </DataMethodOutput>
+    <DataMethodOutput>
+        <Name>xLocal5</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+    </DataMethodOutput>
+    <DataMethodOutput>
+        <Name>xLocal4</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+    </DataMethodOutput>
+    <DataMethodOutput>
+        <Name>xLocal3</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+    </DataMethodOutput>
+    <DataMethodOutput>
+        <Name>xLocal2</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+    </DataMethodOutput>
+    <DataMethodOutput>
+        <Name>xLocal1</Name>
+        <DataType>numeric</DataType>
+        <Value>7000.0</Value>
+    </DataMethodOutput>
+    <DataMethodOutput>
+        <Name>xprelim</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+    </DataMethodOutput>
+</DataMethodHistory><DataMethodHistory Timestamp="2016-10-12T18:04:06.845+03:00"><Name>dm_set_next_step</Name><DataType>string</DataType>
+
+
+</DataMethodHistory><Dummy/><Response_QIWI Description="Успешно" ExtId="4aef8c2a9103018b4fc7" Result="OK">
+    <Data_QIWI Startdate="2015-01-01" type="y">
+        <Period_QIWI firstdate="2015-01-01" number="0">
+            <Bank_QIWI count="0" sum="0"/>
+            <Utility_QIWI count="0" sum="0"/>
+            <Phone_QIWI count="2" sum="1000"/>
+        </Period_QIWI>
+    </Data_QIWI>
+    <AggregatedData_QIWI ActualDate="2016-01-01" AverageSum="500" FirstPayDate="2015-06-02" FirstPaymentRegion="Московская обл" LastPayDate="2015-07-01" LastPaymentRegion="Московская обл" MAXGAPDAYS="0" MaxDifferenceInDays="29" MaxPayHour="20" MaxPayment1Month="0" MaxPayment3Month="0" MaxPayment6Month="500" MaxPaymentRegion="Московская обл" Payments1MonthCount="0" Payments1MonthSum="0" Payments3MonthCount="0" Payments3MonthSum="0" Payments6MonthCount="1" Payments6MonthSum="500" PaymentsForMaxPaymentsCountProvider="2" PhoneNumber="9262648873" ProviderWithMaximumPaymentsCount="Столичный филиал ОАО «МегаФон»" ProviderWithMaximumPaymentsSum="Столичный филиал ОАО «МегаФон»" RosSvyaz_Operator="" RosSvyaz_Region="" TotalMaxPayment="500" TotalPaymentsCount="2" TotalPaymentsSum="1000" life_period="2" pay_time="20" prob_def="0" prob_resp="0" region_maxpays="Московская обл" region_maxpayscount="2" region_percent="100"/>
+</Response_QIWI>
+
+
+
+
+
+
+    <NBKI>
+        <product_NBKI>
+            <prequest_NBKI>
+                <req_NBKI IOType="B2B" OutputFormat="XML" lang="ru">
+                    <Address_NBKI addressType="1" apartment="63" city="г Подольск, мкр Климовск" houseNumber="д 16" postal="142184" street="пр-кт 50- летия Октября"/>
+                    <Address_NBKI addressType="2" apartment="63" city="г Подольск, мкр Климовск" houseNumber="д 16 " postal="142184" street="пр-кт 50- летия Октября"/>
+                    <Id_NBKI idNum="389591" idType="21" idTypeText="Паспорт гражданина РФ" issueAuthority="отделением в гор. климовске оуфмс россии по московской обл. в гор. подольск" issueCountry="отделением в гор. климовске оуфмс россии по московской обл. в гор. подольск" issueDate="2010-05-20" seriesNumber="4611"/>
+                    <Inquiry_NBKI currencyCode="RUB" inqAmount="7000" inqPurpose="99">
+                        <ConsentReq_NBKI consentDate="2007-05-28" consentExpireDate="2018-05-28" consentFlag="Y" consentPurpose="2" liability="Y" reportUser="ООО Микрофинансовая организация  &#34;Домашние деньги&#34;"/>
+                    </Inquiry_NBKI>
+                    <Person_NBKI birthDt="1988-11-25" first="ПАВЕЛ" name1="АБРАМОВ" paternal="ВАДИМОВИЧ" placeOfBirth="г Подольск "/>
+                    <Requestor_NBKI MemberCode="QH01LL000000" UserID="QH01LL000003"/>
+                    <Ref_NBKI product="CHST"/>
+                </req_NBKI>
+            </prequest_NBKI>
+            <preply_NBKI>
+                <report_NBKI MemberCodeStatus="" addOns="" groups="" inqControlNum="687672218">
+                    <Subject_NBKI fileSinceDt="2013-04-22" lastUpdatedDt="2013-04-22"/>
+                    <Person_NBKI birthDt="1988-11-25" dataValidity="" disputedRemarks="" disputedStatus="" fileSinceDt="2013-04-22" first="ПАВЕЛ" freezeFlag="0" lastUpdatedDt="2013-04-22" name1="АБРАМОВ" nationality="" paternal="ВАДИМОВИЧ" placeOfBirth="КЛИМОВСК" serialNum="69355524" suppressFlag="0"/>
+                    <Id_NBKI dataValidity="" disputedRemarks="" disputedStatus="" fileSinceDt="2013-04-22" freezeFlag="0" idNum="022053" idType="21" idTypeText="Паспорт гражданина РФ" issueAuthority="НЕТ" issueCountry="НЕТ" issueDate="2010-05-20" lastUpdatedDt="2013-04-22" serialNum="251164369" seriesNumber="4611" suppressFlag="0"/>
+                    <Address_NBKI addressType="1" addressTypeText="Адрес прописки" apartment="" block="" building="" city="НЕТ" countryCode="" disputedRemarks="" disputedStatus="" district="" fileSinceDt="2013-04-22" freezeFlag="0" houseNumber="" lastUpdatedDt="2013-04-22" serialNum="497109450" street="НЕТ" suppressFlag="0"/>
+                    <Address_NBKI addressType="2" addressTypeText="Адрес проживания" apartment="" block="" building="" city="НЕТ" countryCode="" disputedRemarks="" disputedStatus="" district="" fileSinceDt="2013-04-22" freezeFlag="0" houseNumber="" lastUpdatedDt="2013-04-22" serialNum="497109452" street="НЕТ" suppressFlag="0"/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687672212" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687636325" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687636318" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687634847" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687634836" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687625962" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687625957" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687609920" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687609911" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687519222" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="7000" inqControlNum="687519202" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="665691811" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 60 дней" serialNum="0" suppressFlag="0" userReference=""/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="329507938" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="более 1 года" serialNum="0" suppressFlag="0" userReference="NONE"/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="290086785" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="более 1 года" serialNum="0" suppressFlag="0" userReference="NONE"/>
+                    <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="240079938" inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="более 1 года" serialNum="0" suppressFlag="0" userReference=""/>
+                    <OwnInquiries_NBKI>
+                        <Inquiry_NBKI inqControlNum="687672212"/>
+                        <Inquiry_NBKI inqControlNum="687636325"/>
+                        <Inquiry_NBKI inqControlNum="687636318"/>
+                        <Inquiry_NBKI inqControlNum="687634847"/>
+                        <Inquiry_NBKI inqControlNum="687634836"/>
+                        <Inquiry_NBKI inqControlNum="687625962"/>
+                        <Inquiry_NBKI inqControlNum="687625957"/>
+                        <Inquiry_NBKI inqControlNum="687609920"/>
+                        <Inquiry_NBKI inqControlNum="687609911"/>
+                        <Inquiry_NBKI inqControlNum="687519222"/>
+                        <Inquiry_NBKI inqControlNum="687519202"/>
+                    </OwnInquiries_NBKI>
+                    <Calculations_NBKI collectionsInquiries="12" mostRecentInqText="последние 7 дней" negativeRating="0" recentInquiries="11" reportIssueDateTime="2016-10-12" totalAccts="0" totalActiveBalanceAccounts="0" totalApprovedIPRecords="0" totalBankruptcies="0" totalDefaultFlagIPRecords="0" totalDisputedAccounts="0" totalDisputedBankruptcy="0" totalDisputedIPItem="0" totalDisputedLegalItem="0" totalDisputedOfficialInfo="0" totalIPRecords="0" totalInquiries="15" totalLegalItems="0" totalOfficialInfo="0" totalRejectedIPRecords="0"/>
+                </report_NBKI>
+            </preply_NBKI>
+        </product_NBKI>
+    </NBKI></application_e>
+
+</AXI>
+
+
+</Application>
+        <!--<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"-->
+        <!--xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fps="http://example.org/FPSPartner">-->
+        <!--<soapenv:Header/>-->
+        <!--<soapenv:Body>-->
+        <!--<fps:newApplication>-->
+        <!--<login xsi:type="fps:P50Type">domadengi</login>-->
+        <!--<password xsi:type="fps:P50Type">aaiCwod7DK</password>-->
+        <!--<partnerid xsi:type="fps:PartneridType">101</partnerid>-->
+        <!--<applicationid xsi:type="fps:P100Type">dfsiygn3489fos4</applicationid>-->
+        <!--<applicationdate xsi:type="fps:DatetimeType">27.09.2016 17:20:11</applicationdate>-->
+        <!--&lt;!&ndash;Optional:&ndash;&gt;-->
+        <!--<photoid xsi:type="fps:P100Type">?</photoid>-->
+        <!--<lastname xsi:type="fps:P50Type">ИВАНОВ</lastname>-->
+        <!--<firstname xsi:type="fps:P50Type">ИВАН</firstname>-->
+        <!--<middlename xsi:type="fps:P50Type">ИВАНОВИЧ</middlename>-->
+        <!--<pastlastname xsi:type="fps:P50Type">EMPTY</pastlastname>-->
+        <!--<birthday xsi:type="fps:DateType">01.01.1980</birthday>-->
+        <!--<birthplace xsi:type="fps:P255Type">г. МОСКВА</birthplace>-->
+        <!--<doctype xsi:type="fps:DoctypeType">1</doctype>-->
+        <!--<docno xsi:type="fps:P20Type">1234567890</docno>-->
+        <!--<docplace xsi:type="fps:P255Type">УВД г. Москва</docplace>-->
+        <!--<docdate xsi:type="fps:DateType">01.01.2000</docdate>-->
+        <!--<doccode xsi:type="fps:P6Type">111222</doccode>-->
+        <!--<pastdoctype xsi:type="fps:DoctypeType">99</pastdoctype>-->
+        <!--<pastdocno xsi:type="fps:P20Type">EMPTY</pastdocno>-->
+        <!--<pastdocplace xsi:type="fps:P255Type">EMPTY</pastdocplace>-->
+        <!--<pastdocdate xsi:type="fps:DateType">01.01.1900</pastdocdate>-->
+        <!--<sex xsi:type="fps:SexType">1</sex>-->
+        <!--<citizenship xsi:type="fps:CitizenshipType">RU</citizenship>-->
+        <!--<inn xsi:type="fps:P12Type">123456789012</inn>-->
+        <!--<pfr xsi:type="fps:PfrType">12345678901</pfr>-->
+        <!--<driverno xsi:type="fps:DrivernoType">EMPTY</driverno>-->
+        <!--<education xsi:type="fps:EducationType">1</education>-->
+        <!--<marital xsi:type="fps:MaritalType">1</marital>-->
+        <!--<numchildren xsi:type="fps:P5Type">0</numchildren>-->
+        <!--<email xsi:type="fps:P50Type">ivan@ivanov.ru</email>-->
+        <!--<homephone xsi:type="fps:P15Type">4967556677</homephone>-->
+        <!--<mobilephone xsi:type="fps:P15Type">9261234567</mobilephone>-->
+        <!--<la_country xsi:type="fps:CitizenshipType">RU</la_country>-->
+        <!--<la_index xsi:type="fps:P6Type">142116</la_index>-->
+        <!--<la_region xsi:type="fps:P100Type">МОСКОВСКАЯ</la_region>-->
+        <!--<la_district xsi:type="fps:P100Type">EMPTY</la_district>-->
+        <!--<la_city xsi:type="fps:P100Type">ПОДОЛЬСК</la_city>-->
+        <!--<la_settlement xsi:type="fps:P100Type">EMPTY</la_settlement>-->
+        <!--<la_street xsi:type="fps:P100Type">КУРСКАЯ</la_street>-->
+        <!--<la_house xsi:type="fps:P15Type">4</la_house>-->
+        <!--<la_building xsi:type="fps:P15Type">A</la_building>-->
+        <!--<la_structure xsi:type="fps:P15Type">EMPTY</la_structure>-->
+        <!--<la_apartment xsi:type="fps:P15Type">11</la_apartment>-->
+        <!--<la_years xsi:type="fps:P5Type">1</la_years>-->
+        <!--<la_month xsi:type="fps:P5Type">2</la_month>-->
+        <!--<la_date xsi:type="fps:DateType">01.01.1900</la_date>-->
+        <!--<ra_phone xsi:type="fps:P15Type">84967123456</ra_phone>-->
+        <!--<ra_country xsi:type="fps:CitizenshipType">RU</ra_country>-->
+        <!--<ra_index xsi:type="fps:P6Type">142116</ra_index>-->
+        <!--<ra_region xsi:type="fps:P100Type">МОСКОВСКАЯ</ra_region>-->
+        <!--<ra_district xsi:type="fps:P100Type">EMPTY</ra_district>-->
+        <!--<ra_city xsi:type="fps:P100Type">ПОДОЛЬСК</ra_city>-->
+        <!--<ra_settlement xsi:type="fps:P100Type">EMPTY</ra_settlement>-->
+        <!--<ra_street xsi:type="fps:P100Type">КУРСКАЯ</ra_street>-->
+        <!--<ra_house xsi:type="fps:P15Type">4</ra_house>-->
+        <!--<ra_building xsi:type="fps:P15Type">A</ra_building>-->
+        <!--<ra_structure xsi:type="fps:P15Type">EMPTY</ra_structure>-->
+        <!--<ra_apartment xsi:type="fps:P15Type">11</ra_apartment>-->
+        <!--<employername xsi:type="fps:P255Type">ООО &amp;quot;РОГА И КОПЫТА&amp;quot;</employername>-->
+        <!--<employersize xsi:type="fps:EmployersizeType">3</employersize>-->
+        <!--<businessindustry xsi:type="fps:BusinessindustryType">1</businessindustry>-->
+        <!--<position xsi:type="fps:P100Type">САМЫЙ ГЛАВНЫЙ</position>-->
+        <!--<employment_year xsi:type="fps:P5Type">4</employment_year>-->
+        <!--<employment_month xsi:type="fps:P5Type">7</employment_month>-->
+        <!--<employment_date xsi:type="fps:DateType">01.01.1900</employment_date>-->
+        <!--<employment_inn xsi:type="fps:P12Type">1234567890</employment_inn>-->
+        <!--<incomeproof xsi:type="fps:IncomeproofType">1</incomeproof>-->
+        <!--<monthlyincome xsi:type="fps:P15_2Type">27934.12</monthlyincome>-->
+        <!--<ba_phone xsi:type="fps:P15Type">4951112233</ba_phone>-->
+        <!--<ba_country xsi:type="fps:CitizenshipType">RU</ba_country>-->
+        <!--<ba_index xsi:type="fps:P6Type">111000</ba_index>-->
+        <!--<ba_region xsi:type="fps:P100Type">МОСКВА</ba_region>-->
+        <!--<ba_district xsi:type="fps:P100Type">EMPTY</ba_district>-->
+        <!--<ba_city xsi:type="fps:P100Type">EMPTY</ba_city>-->
+        <!--<ba_settlement xsi:type="fps:P100Type">EMPTY</ba_settlement>-->
+        <!--<ba_street xsi:type="fps:P100Type">ЛЕНИНА</ba_street>-->
+        <!--<ba_house xsi:type="fps:P15Type">1</ba_house>-->
+        <!--<ba_building xsi:type="fps:P15Type">EMPTY</ba_building>-->
+        <!--<ba_structure xsi:type="fps:P15Type">EMPTY</ba_structure>-->
+        <!--<ba_apartment xsi:type="fps:P15Type">1</ba_apartment>-->
+        <!--<producttype xsi:type="fps:ProducttypeType">4</producttype>-->
+        <!--<productname xsi:type="fps:P255Type">КАРТА КРЕДИТНАЯ</productname>-->
+        <!--<originalchannel xsi:type="fps:OriginalchannelType">1</originalchannel>-->
+        <!--<productsumlimit xsi:type="fps:P15_2Type">20000</productsumlimit>-->
+        <!--<productsumcurrency xsi:type="fps:ProductsumcurrencyType">RUR</productsumcurrency>-->
+        <!--<downpaymentamount xsi:type="fps:P15_2Type">0</downpaymentamount>-->
+        <!--<collateralexistence xsi:type="fps:CollateralexistenceType">0</collateralexistence>-->
+        <!--<collateralvalue xsi:type="fps:P15_2Type">0</collateralvalue>-->
+        <!--<purchaseexistence xsi:type="fps:PurchaseexistenceType">0</purchaseexistence>-->
+        <!--<purchasevalue xsi:type="fps:P15_2Type">0</purchasevalue>-->
+        <!--<purchasemodel xsi:type="fps:P255Type">EMPTY</purchasemodel>-->
+        <!--<operator_code xsi:type="fps:P100Type">3468-9790-990-23-RTY</operator_code>-->
+        <!--<operator_name xsi:type="fps:P255Type">Наядова-Панияд Фатима Раисовна</operator_name>-->
+        <!--<pos_code xsi:type="fps:P100Type">2999301-29</pos_code>-->
+        <!--<pos_phone xsi:type="fps:P15Type">4951111111</pos_phone>-->
+        <!--<pos_country xsi:type="fps:CitizenshipType">RU</pos_country>-->
+        <!--<pos_index xsi:type="fps:P6Type">111000</pos_index>-->
+        <!--<pos_region xsi:type="fps:P100Type">МОСКВА</pos_region>-->
+        <!--<pos_district xsi:type="fps:P100Type">EMPTY</pos_district>-->
+        <!--<pos_city xsi:type="fps:P100Type">EMPTY</pos_city>-->
+        <!--<pos_settlement xsi:type="fps:P100Type">EMPTY</pos_settlement>-->
+        <!--<pos_street xsi:type="fps:P100Type">КРЕМЛЬ</pos_street>-->
+        <!--<pos_house xsi:type="fps:P15Type">1</pos_house>-->
+        <!--<pos_building xsi:type="fps:P15Type">EMPTY</pos_building>-->
+        <!--<pos_structure xsi:type="fps:P15Type">EMPTY</pos_structure>-->
+        <!--<pos_apartment xsi:type="fps:P15Type">EMPTY</pos_apartment>-->
+        <!--<newapplicant xsi:type="fps:NewapplicantType">1</newapplicant>-->
+        <!--<applicanttype xsi:type="fps:ApplicanttypeType">1</applicanttype>-->
+        <!--<applicanttypenum xsi:type="fps:ApplicanttypenumType">1</applicanttypenum>-->
+        <!--<responseisneeded xsi:type="fps:ResponseisneededType">1</responseisneeded>-->
+        <!--<applicationstatus xsi:type="fps:ApplicationstatusType">9</applicationstatus>-->
+        <!--<applicantid xsi:type="fps:ApplicantidType">121233</applicantid>-->
+        <!--<tradedate xsi:type="fps:DateType">01.07.2010</tradedate>-->
+        <!--<initialsumlimit xsi:type="fps:P15_2Type">5000.11</initialsumlimit>-->
+        <!--<initialsumcurrency xsi:type="fps:ProductsumcurrencyType">RUR</initialsumcurrency>-->
+        <!--<applicationfraudstatus xsi:type="fps:ApplicationfraudstatusType">9</applicationfraudstatus>-->
+        <!--<applicationfraudstatusdescr xsi:type="fps:P1024Type">Текст</applicationfraudstatusdescr>-->
+        <!--<defaultstatus xsi:type="fps:DefaultstatusType">9</defaultstatus>-->
+        <!--</fps:newApplication>-->
+        <!--</soapenv:Body>-->
+        <!--</soapenv:Envelope>-->

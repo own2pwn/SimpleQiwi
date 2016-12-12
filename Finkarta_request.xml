@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request id="1" date="2012-12-12T10:10:10" request_type="ALL">
+    <check_hash
+            first_name="Илья"
+            middle_name="Иванович"
+            today="07.10.2016"
+            hash="ИльяИванович07.10.2016"/>
+    <person_data>
+        <person record_id="1"
+                reason_request="2"
+                type="1"
+                hash_last_name="Петров-Водкин"
+                hash_first_name="Илья"
+                hash_middle_name="Иванович"
+                hash_birth_date="19.06.1990"
+                hash_birth_place="Волгоград"
+                sex="1"
+                hash_inn="97854615132132948"
+                hash_snils="978546132546789546">
+            <person_addresses>
+                <address record_id="1"
+                         address_type="2"
+                         address_index="400000"
+                         address_region="Московская область"
+                         address_city_name="Москва"
+                         hash_address_street_name="Заворуева"
+                         hash_address_building_number="25"
+                         hash_address_flat_number="36"/>
+            </person_addresses>
+            <person_phones>
+                <phone record_id="1"
+                       phone_type="3"
+                       phone_number="9277899889"/>
+            </person_phones>
+            <person_docs>
+                <doc record_id="1"
+                     doc_type="1"
+                     hash_doc_serial="1815"
+                     hash_doc_number="13246"
+                     hash_doc_issue_date="14.04.2015"
+                     doc_issue_auth="Орган, выдавший документ"/>
+            </person_docs>
+            <person_cards>
+                <card record_id="1"
+                      card_number="123456XXXXXX6789"
+                      card_exp_date="01.06.2018"/>
+            </person_cards>
+        </person>
+    </person_data>
+</request>
+
+        <?xml version="1.0" encoding="UTF-8"?><request date="2016-10-07T10:10:10" id="2078808694" request_type="ALL">
+<check_hash first_name="Илья"
+            hash="ff9bed468853125e8ef2d785788bb7482391108d82646481569714bb480458c9cdf30d7f4a7073d9234033f691e89038fc979c4a41712e09a9ada78f263ea827"
+            middle_name="Иванович" today="2016-10-10"/>
+<person_data>
+    <person hash_birth_date="38403e16cc29de69a06505e57f3ab48010105818f88f2b3a71515e040e53ee4787f7cdddd122fcefd6ff6553c702949f835955358e32f5279472335ce66cbdb0"
+            hash_birth_place="068150ebd5a8e70fe5ce4c156c1536578aea3093d6e4401485c42a88698974d8b72e143e8f651050d8575b9db2d67e20c8a361fae54c29f953ab496a3f91b2e0"
+            hash_first_name="208edd5d1146f62b49445f53a12b72ed8028d217e1a6b7c29728961a40ae85a803c79741d5af9fd9b5bd95e99331a0bfdfa2858face120e09cae278f3a979e72"
+            hash_inn="29fb734626cec78a47abca24e3b2a2009f256cda2dd232cc1e3ce1d8ba121064fef68c42964fcb7f496b2b3e4bdcd35f6908a46ad07dab38e943ca6c10c016ce"
+            hash_last_name="3cc41174737e3d8c04e7a1a1c0117891590d67734e3ae16061485a7ab3687616adba6c32e1c6289bf3c690694cfd10103f86d67fbf858475f0c62d115952ed3f"
+            hash_middle_name="d42b400da043479037d201f6ff1483540761f0b40c81988fd3f3032907a4425498bf4c141476b78fd794341fc1de4a6639d3ad82e2542a5d04a6ff4fd807ff61"
+            hash_snils="920bbcb5fec5608d4f1334b546fbbef549cc07654fb14d7d289f6c750b4084e170d211beb0ef5c6935dcd41b1695f170401a0bd1adf6887077f39f5c96467f2d"
+            record_id="1" sex="1" type="1" reason_request="2">
+        <person_docs>
+            <doc doc_issue_auth="Орган, выдавший документ" doc_type="1"
+                 hash_doc_issue_date="c5971a38c2063e5a27d1c323f30f072093bb7fbd14ede7415a42beb28a29b2e61a361424b97d9136172b394990260cc64f2f78564c6f391fea0fb9b58b05445e"
+                 hash_doc_number="9b8555c2232c6eba1edf38002ee5804f6d41ff24592fa288e399acc05a75853b6aeee0d85e557bc414015a346e6a63e2e34fa70148f716fd8ab0d8c12b1a7348"
+                 hash_doc_serial="d4c4d8229ca1b7312a08829ae3382b160e6a91f28273081fc4e504559f9aecbdc0469a78f2cd55710e3b03aa2ae4685a5beba8d955ca706661111b3f7d781ad4"
+                 record_id="1"/>
+        </person_docs>
+        <person_addresses>
+            <address address_city_name="Москва" address_index="400000" address_region="Московская область"
+                     address_type="2"
+                     hash_address_building_number="04825049b72dd29cc0c96b8743fa5d6015d4d0afc20285153b781fc6ddf57316dbba93606b4edf083271ca962e0c1ef3d6772357802315f563f86d1670f7ab17"
+                     hash_address_flat_number="88f51a8985b407eeab8c6c87c9178ea5b0e2b1962d6f4fc5785dc1202519f8f2f78aaca75dfa9c871034f3455557977808bf8ab9d2844135d27cded0411b2aaf"
+                     hash_address_street_name="074c4ed82dd21f98f06415296edf51841d44e3d55969788f36d7e9f79dcc07e87c7fe46c33ba7fdfec3f82fe3a0de3520b3a6314bb41ffb4770b89c4393223dc"
+                     record_id="1"/>
+        </person_addresses>
+        <person_phones>
+            <phone phone_number="9277899889" phone_type="3" record_id="1"/>
+        </person_phones>
+        <person_emails>
+            <email email_address="asdasd@asdasd.ru" email_type="3" record_id="1"/>
+        </person_emails>
+        <person_employment/>
+        <person_pec_obligations/>
+        <person_mortgaged_property/>
+        <person_overdue_debts/>
+        <person_cards>
+               <card card_exp_date="2018-06-01" card_number="123456XXXXXX6789" record_id="1"/>
+        </person_cards>
+    </person>
+</person_data>
+</request>

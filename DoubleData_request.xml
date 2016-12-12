@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="Windows-1251"?><universalService>
+    <product>
+        <prequest>
+            <req>
+                <AddressReq>
+                    <houseNumber>Дом 16</houseNumber>
+                    <street>Пожарского ул</street>
+                    <apartment>Квартира 139</apartment>
+                    <city>Химки г</city>
+                    <postal>141411</postal>
+                    <addressType>1</addressType>
+                </AddressReq>
+                <AddressReq>
+                    <houseNumber>Дом 16</houseNumber>
+                    <street>Пожарского ул</street>
+                    <apartment>Квартира 139</apartment>
+                    <city>Химки г</city>
+                    <postal>141411</postal>
+                    <addressType>2</addressType>
+                </AddressReq>
+                <PersonReq>
+                    <name1>Кустов</name1>
+                    <first>Георгий</first>
+                    <paternal>Георгиевич</paternal>
+                    <birthDt>1946-07-06</birthDt>
+                    <placeOfBirth>Москва</placeOfBirth>
+                </PersonReq>
+                <RequestorReq>
+                    <MemberCode>MF01BB000000</MemberCode>
+                    <UserID>MF01BB000012</UserID>
+                    <Password>VvJHB8zS</Password>
+                </RequestorReq>
+                <IdReq>
+                    <idNum>444444</idNum>
+                    <idType>21</idType>
+                    <seriesNumber>0616</seriesNumber>
+                    <issueCountry>-</issueCountry>
+                    <issueDate>2016-07-15</issueDate>
+                    <issueAuthority>-</issueAuthority>
+                </IdReq>
+                <InquiryReq>
+                    <ConsentReq>
+                        <consentFlag>Y</consentFlag>
+                        <consentDate>2007-05-28</consentDate>
+                        <consentExpireDate>2018-05-28</consentExpireDate>
+                        <consentPurpose>2</consentPurpose>
+                        <otherConsentPurpose></otherConsentPurpose>
+                        <liability>Y</liability>
+                        <reportUser>Домашние Деньги</reportUser>
+                    </ConsentReq>
+                    <inqPurpose>99</inqPurpose>
+                    <inqAmount>35000</inqAmount>
+                    <currencyCode>RUB</currencyCode>
+                </InquiryReq>
+                <RefReq>
+                    <product>CHST</product>
+                </RefReq>
+                <IOType>B2B</IOType>
+                <OutputFormat>XML</OutputFormat>
+                <lang>ru</lang>
+            </req>
+        </prequest>
+    </product>
+    <service>
+        <code>SA</code>
+        <request>
+            <type>0</type>
+        </request>
+    </service>
+</universalService>

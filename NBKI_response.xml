@@ -1,0 +1,195 @@
+<NBKI>
+    <product_NBKI>
+        <prequest_NBKI>
+            <req_NBKI IOType="B2B" OutputFormat="XML" lang="ru">
+                <Address_NBKI addressType="2" apartment="Квартира 139" city="Химки г" houseNumber="Дом 16"
+                              postal="141411" street="Пожарского ул"/>
+                <Address_NBKI addressType="1" apartment="Квартира 139" city="Химки г" houseNumber="Дом 16"
+                              postal="141411" street="Пожарского ул"/>
+                <Id_NBKI idNum="280497" idType="21" idTypeText="Паспорт гражданина РФ" issueAuthority="-"
+                         issueCountry="-" issueDate="2016-07-15" seriesNumber="4616"/>
+                <Inquiry_NBKI currencyCode="RUB" inqAmount="35000" inqPurpose="99"/>
+                <Person_NBKI birthDt="1970-10-28" first="Михаил" name1="Астафьев" paternal="Владимирович"
+                             placeOfBirth="москва"/>
+                <Requestor_NBKI MemberCode="HF01FF000000" UserID="HF01FF000003"/>
+
+
+                <Ref_NBKI product="CHST"/>
+            </req_NBKI>
+
+        </prequest_NBKI>
+        <preply_NBKI>
+            <report_NBKI MemberCodeStatus="" addOns="" groups="" inqControlNum="663583803">
+                <Subject_NBKI fileSinceDt="2016-07-25" lastUpdatedDt="2016-07-25"/>
+                <Person_NBKI birthDt="1970-10-28" dataValidity="" disputedRemarks="" disputedStatus=""
+                             fileSinceDt="2016-07-25" first="МИХАИЛ" freezeFlag="0"
+                             lastUpdatedDt="2016-08-22" name1="АСТАФЬЕВ" nationality=""
+                             paternal="ВЛАДИМИРОВИЧ" placeOfBirth="ХИМКИ" serialNum="94807460"
+                             suppressFlag="0"/>
+                <Id_NBKI dataValidity="" disputedRemarks="" disputedStatus="" fileSinceDt="2016-07-25"
+                         freezeFlag="0" idNum="280497" idType="21" idTypeText="Паспорт гражданина РФ"
+                         issueAuthority="МП №2 ОУФМС РОССИИ ПО МОСКОВСКОЙ ОБЛ.ПО ГОРОДСКОМУ ОКРУГУ ХИМКИ 500-171"
+                         issueCountry="МП №2 ОУФМС РОССИИ ПО МОСКОВСКОЙ ОБЛ. ПО ГОРОДСКОМУ ОКРУГУ ХИМКИ"
+                         issueDate="2016-07-15" lastUpdatedDt="2016-08-16" serialNum="351879769"
+                         seriesNumber="4616" suppressFlag="0"/>
+                <Id_NBKI dataValidity="" disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-15"
+                         freezeFlag="0" idNum="13299807192" idType="32"
+                         idTypeText="Номер обязательного пенсионного страхования" issueAuthority=""
+                         issueCountry="" lastUpdatedDt="2016-08-15" serialNum="353897579" seriesNumber=""
+                         suppressFlag="0"/>
+                <Address_NBKI addrSinceDt="1998-01-15" addressType="1" addressTypeText="Адрес прописки"
+                              apartment="139" block="" building="" city="ХИМКИ" countryCode="RU"
+                              countryCodeText="Российская Федерация" disputedRemarks="" disputedStatus=""
+                              district="ХИМКИНСКИЙ" fileSinceDt="2016-08-15" freezeFlag="0" houseNumber="16"
+                              lastUpdatedDt="2016-08-16" postal="141411" prov="50"
+                              provText="Московская обл." serialNum="862980579" street="ПОЖАРСКОГО"
+                              streetType="28" streetTypeText="ул." suppressFlag="0"/>
+                <Address_NBKI addressType="1" addressTypeText="Адрес прописки" apartment="" block=""
+                              building="" city="ХИМКИ" countryCode="" disputedRemarks="" disputedStatus=""
+                              district="" fileSinceDt="2016-07-25" freezeFlag="0" houseNumber=""
+                              lastUpdatedDt="2016-07-25" serialNum="852870607" street="ПОЖАРСКОГО"
+                              suppressFlag="0"/>
+                <Address_NBKI addressType="2" addressTypeText="Адрес проживания" apartment="139" block=""
+                              building="" city="ХИМКИ" countryCode="RU"
+                              countryCodeText="Российская Федерация" disputedRemarks="" disputedStatus=""
+                              district="" fileSinceDt="2016-08-17" freezeFlag="0" houseNumber="136"
+                              lastUpdatedDt="2016-08-17" postal="101100" prov="50"
+                              provText="Московская обл." resStat="1" resStatText="Собственность"
+                              serialNum="863949899" street="ПОЖАРСКОГО" streetType="28" streetTypeText="ул."
+                              suppressFlag="0"/>
+                <Address_NBKI addressType="2" addressTypeText="Адрес проживания" apartment="139" block=""
+                              building="" city="ХИМКИ" countryCode="RU"
+                              countryCodeText="Российская Федерация" disputedRemarks="" disputedStatus=""
+                              district="ХИМКИНСКИЙ" fileSinceDt="2016-08-15" freezeFlag="0" houseNumber="16"
+                              lastUpdatedDt="2016-08-17" postal="141411" prov="50"
+                              provText="Московская обл." resStat="1" resStatText="Собственность"
+                              serialNum="862980581" street="ПОЖАРСКОГО" streetType="28" streetTypeText="ул."
+                              suppressFlag="0"/>
+                <Address_NBKI addressType="1" addressTypeText="Адрес прописки" apartment="139" block=""
+                              building="" city="ХИМКИ" countryCode="RU"
+                              countryCodeText="Российская Федерация" disputedRemarks="" disputedStatus=""
+                              district="" fileSinceDt="2016-08-17" freezeFlag="0" houseNumber="136"
+                              lastUpdatedDt="2016-08-17" postal="101100" prov="50"
+                              provText="Московская обл." serialNum="863949897" street="ПОЖАРСКОГО"
+                              streetType="28" streetTypeText="ул." suppressFlag="0"/>
+                <Address_NBKI addressType="2" addressTypeText="Адрес проживания" apartment="" block=""
+                              building="" city="ХИМКИ" countryCode="" disputedRemarks="" disputedStatus=""
+                              district="" fileSinceDt="2016-07-25" freezeFlag="0" houseNumber=""
+                              lastUpdatedDt="2016-07-25" serialNum="852870609" street="ПОЖАРСКОГО"
+                              suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-15" freezeFlag="0"
+                            lastUpdatedDt="2016-08-15" number="4957851430" phoneType="1"
+                            phoneTypeText="Рабочий" serialNum="202939488" suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-17" freezeFlag="0"
+                            lastUpdatedDt="2016-08-17" number="70000000000" phoneType="2"
+                            phoneTypeText="Домашний" serialNum="203250869" suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-15" freezeFlag="0"
+                            lastUpdatedDt="2016-08-15" number="9035526465" phoneType="4"
+                            phoneTypeText="Сотовый" serialNum="202939489" suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-17" freezeFlag="0"
+                            lastUpdatedDt="2016-08-17" number="74955700858" phoneType="5"
+                            phoneTypeText="Другое" serialNum="203248845" suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-15" freezeFlag="0"
+                            lastUpdatedDt="2016-08-15" number="4957851430" phoneType="1"
+                            phoneTypeText="Рабочий" serialNum="202939490" suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-17" freezeFlag="0"
+                            lastUpdatedDt="2016-08-17" number="79035526465" phoneType="4"
+                            phoneTypeText="Сотовый" serialNum="203248844" suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-17" freezeFlag="0"
+                            lastUpdatedDt="2016-08-17" number="74955700858" phoneType="2"
+                            phoneTypeText="Домашний" serialNum="203248843" suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-17" freezeFlag="0"
+                            lastUpdatedDt="2016-08-17" number="74957851430" phoneType="1"
+                            phoneTypeText="Рабочий" serialNum="203248842" suppressFlag="0"/>
+                <Phone_NBKI disputedRemarks="" disputedStatus="" fileSinceDt="2016-08-17" freezeFlag="0"
+                            lastUpdatedDt="2016-08-17" number="70000000000" phoneType="5"
+                            phoneTypeText="Другое" serialNum="203250870" suppressFlag="0"/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="127862" inqControlNum="659274695"
+                              inqPurpose="09" inqPurposeText="Потребительский кредит"
+                              inquiryPeriod="последние 14 дней" serialNum="0" suppressFlag="0"
+                              userReference="NONE"/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="10000" inqControlNum="662129224"
+                              inqPurpose="16" inqPurposeText="Микрокредит" inquiryPeriod="последние 7 дней"
+                              serialNum="0" suppressFlag="0" userReference=""/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="650099667"
+                              inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 60 дней"
+                              serialNum="0" suppressFlag="0" userReference="NONE"/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="662591973"
+                              inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней"
+                              serialNum="0" suppressFlag="0" userReference=""/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="128091" inqControlNum="659274443"
+                              inqPurpose="09" inqPurposeText="Потребительский кредит"
+                              inquiryPeriod="последние 14 дней" serialNum="0" suppressFlag="0"
+                              userReference="NONE"/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="663505416"
+                              inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 7 дней"
+                              serialNum="0" suppressFlag="0" userReference=""/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="650100072"
+                              inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 60 дней"
+                              serialNum="0" suppressFlag="0" userReference="NONE"/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="280000" inqControlNum="659244693"
+                              inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 14 дней"
+                              serialNum="0" suppressFlag="0" userReference=""/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="1257861"
+                              inqControlNum="657546588" inqPurpose="99" inqPurposeText="Неизвестно"
+                              inquiryPeriod="последние 14 дней" serialNum="0" suppressFlag="0"
+                              userReference="NONE"/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="659221823"
+                              inqPurpose="09" inqPurposeText="Потребительский кредит"
+                              inquiryPeriod="последние 14 дней" serialNum="0" suppressFlag="0"
+                              userReference="NONE"/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="657552786"
+                              inqPurpose="99" inqPurposeText="Неизвестно" inquiryPeriod="последние 14 дней"
+                              serialNum="0" suppressFlag="0" userReference="NONE"/>
+                <Inquiry_NBKI currencyCode="RUB" freezeFlag="0" inqAmount="0" inqControlNum="659221667"
+                              inqPurpose="09" inqPurposeText="Потребительский кредит"
+                              inquiryPeriod="последние 14 дней" serialNum="0" suppressFlag="0"
+                              userReference="NONE"/>
+                <Calculations_NBKI collectionsInquiries="12" mostRecentInqText="последние 7 дней"
+                                   negativeRating="0" recentInquiries="10" reportIssueDateTime="2016-08-24"
+                                   totalAccts="0" totalActiveBalanceAccounts="0" totalApprovedIPRecords="0"
+                                   totalBankruptcies="0" totalDefaultFlagIPRecords="0"
+                                   totalDisputedAccounts="0" totalDisputedBankruptcy="0"
+                                   totalDisputedIPItem="0" totalDisputedLegalItem="0"
+                                   totalDisputedOfficialInfo="0" totalIPRecords="0" totalInquiries="12"
+                                   totalLegalItems="0" totalOfficialInfo="0" totalRejectedIPRecords="0"/>
+
+
+            </report_NBKI>
+
+        </preply_NBKI>
+
+
+    </product_NBKI>
+    <DataMethodHistory Timestamp="2016-08-24T15:04:04.637+03:00">
+        <Name>dm_nbki_cnt_active_credits</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+        <DataMethodOutput>
+            <Name>xVal</Name>
+            <DataType>numeric</DataType>
+            <Value>0.0</Value>
+        </DataMethodOutput>
+    </DataMethodHistory>
+    <DataMethodHistory Timestamp="2016-08-24T15:04:04.637+03:00">
+        <Name>dm_nbki_cnt_overdue_more_60</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+        <DataMethodOutput>
+            <Name>xVal</Name>
+            <DataType>numeric</DataType>
+            <Value>0.0</Value>
+        </DataMethodOutput>
+    </DataMethodHistory>
+    <DataMethodHistory Timestamp="2016-08-24T15:04:04.637+03:00">
+        <Name>dm_nbki_bki_flg</Name>
+        <DataType>numeric</DataType>
+        <Value>0.0</Value>
+        <DataMethodOutput>
+            <Name>xVal</Name>
+            <DataType>numeric</DataType>
+            <Value>0.0</Value>
+        </DataMethodOutput>
+    </DataMethodHistory>
+
+</NBKI>

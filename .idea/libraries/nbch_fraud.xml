@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nbch_fraud">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/nbch_fraud.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

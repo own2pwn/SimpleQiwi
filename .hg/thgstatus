@@ -1,0 +1,11 @@
+m
+a.idea/libraries
+msrc/main/java/ru/sample/qiwi
+msrc/main/java/ru/sample/qiwi/Externalsystems
+msrc/main/java/ru/sample/qiwi/Helpers
+asrc/main/java/ru/sample/qiwi/encryptnormmodule
+asrc/main/java/ru/sample/qiwi/encryptnormmodule/batch
+asrc/main/java/ru/sample/qiwi/encryptnormmodule/normalizers
+asrc/main/java/ru/sample/qiwi/encryptnormmodule/validation
+asrc/main/java/ru/sample/qiwi/fpspartner
+asrc/main/resources

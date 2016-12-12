@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="opencv_java2413">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../opencv-2413.jar!/" />
+      <root url="file://$PROJECT_DIR$/../opencv-2.4/build/src/org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../opencv-2.4/build/src" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results request_id="13009" processing_code="1000">
+    <file name="request_1464783422_req.xml">
+        <check_hash answer="Match" />
+        <xsd answer="No errors" />
+        <response>
+            <person record_id="1">
+                <rules>
+                    <rule rule_id="1" level_1="A" level_2="A1" level_3="" rule_name="SA" data_record_id="" rule_flag="1" rule_value="2" rule_date="2015-08-09 00:00:00" />
+                    <rule rule_id="2" level_1="A" level_2="A9" level_3="" rule_name="Num_srcs" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="3" level_1="A" level_2="A2" level_3="" rule_name="Num_All_PL" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="4" level_1="A" level_2="A2" level_3="A2.0" rule_name="Num_All_PL_0" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="5" level_1="A" level_2="A2" level_3="A2.1" rule_name="Num_All_PL_1" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="6" level_1="A" level_2="A2" level_3="A2.2" rule_name="Num_All_PL_2" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="7" level_1="A" level_2="A2" level_3="A2.3" rule_name="Num_All_PL_3" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="8" level_1="A" level_2="A2" level_3="A2.4" rule_name="Num_All_PL_4" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="9" level_1="A" level_2="A2" level_3="A2.5" rule_name="Num_All_PL_5" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="10" level_1="A" level_2="A2" level_3="A2.6" rule_name="Num_All_PL_6" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="11" level_1="A" level_2="A2" level_3="A2.7" rule_name="Num_All_PL_7" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="12" level_1="A" level_2="A2" level_3="A2.8" rule_name="Num_All_PL_8" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="13" level_1="A" level_2="A2" level_3="A2.9" rule_name="Num_All_PL_9" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="14" level_1="A" level_2="A2" level_3="A2.10" rule_name="Num_All_PL_10" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="15" level_1="A" level_2="A3" level_3="" rule_name="Num_PL" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="16" level_1="A" level_2="A3" level_3="A3.0" rule_name="Num_PL_0" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="17" level_1="A" level_2="A3" level_3="A3.1" rule_name="Num_PL_1" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="18" level_1="A" level_2="A3" level_3="A3.2" rule_name="Num_PL_2" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="19" level_1="A" level_2="A3" level_3="A3.3" rule_name="Num_PL_3" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="20" level_1="A" level_2="A3" level_3="A3.4" rule_name="Num_PL_4" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="21" level_1="A" level_2="A3" level_3="A3.5" rule_name="Num_PL_5" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="22" level_1="A" level_2="A3" level_3="A3.6" rule_name="Num_PL_6" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="23" level_1="A" level_2="A3" level_3="A3.7" rule_name="Num_PL_7" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="24" level_1="A" level_2="A3" level_3="A3.8" rule_name="Num_PL_8" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="25" level_1="A" level_2="A3" level_3="A3.9" rule_name="Num_PL_9" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="26" level_1="A" level_2="A3" level_3="A3.10" rule_name="Num_PL_10" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="27" level_1="A" level_2="A4" level_3="" rule_name="Num_Req_All" data_record_id="" rule_flag="1" rule_value="3" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="28" level_1="A" level_2="A4" level_3="A4.1_all" rule_name="NumR_OD_all" data_record_id="" rule_flag="1" rule_value="1" rule_date="2015-12-03 00:00:00" />
+                    <rule rule_id="29" level_1="A" level_2="A4" level_3="A4.1_30" rule_name="NumR_OD_30" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="30" level_1="A" level_2="A4" level_3="A4.1_60" rule_name="NumR_OD_60" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="31" level_1="A" level_2="A4" level_3="A4.1_90" rule_name="NumR_OD_90" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="32" level_1="A" level_2="A4" level_3="A4.1_120" rule_name="NumR_OD_120" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="33" level_1="A" level_2="A4" level_3="A4.1_180" rule_name="NumR_OD_180" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="34" level_1="A" level_2="A4" level_3="A4.1_360" rule_name="NumR_OD_360" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="35" level_1="A" level_2="A4" level_3="A4.1_360more" rule_name="NumR_OD_360more" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="36" level_1="A" level_2="A4" level_3="A4.2_all" rule_name="NumR_DIL_all" data_record_id="" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="37" level_1="A" level_2="A4" level_3="A4.2_30" rule_name="NumR_DIL_30" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="38" level_1="A" level_2="A4" level_3="A4.2_60" rule_name="NumR_DIL_60" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="39" level_1="A" level_2="A4" level_3="A4.2_90" rule_name="NumR_DIL_90" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="40" level_1="A" level_2="A4" level_3="A4.2_120" rule_name="NumR_DIL_120" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="41" level_1="A" level_2="A4" level_3="A4.2_180" rule_name="NumR_DIL_180" data_record_id="" rule_flag="1" rule_value="1" rule_date="2015-12-09 00:00:00" />
+                    <rule rule_id="42" level_1="A" level_2="A4" level_3="A4.2_360" rule_name="NumR_DIL_360" data_record_id="" rule_flag="1" rule_value="1" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="43" level_1="A" level_2="A4" level_3="A4.2_360more" rule_name="NumR_DIL_360more" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="44" level_1="A" level_2="A10" level_3="" rule_name="PID" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="45" level_1="C" level_2="C3" level_3="" rule_name="Num_Type_Contact" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="46" level_1="C" level_2="C3" level_3="C3.1" rule_name="Num_Type_Contact_1" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="47" level_1="C" level_2="C3" level_3="C3.2" rule_name="Num_Type_Contact_2" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="48" level_1="C" level_2="C3" level_3="C3.3" rule_name="Num_Type_Contact_3" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="49" level_1="C" level_2="C3" level_3="C3.4" rule_name="Num_Type_Contact_4" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="50" level_1="C" level_2="C3" level_3="C3.5" rule_name="Num_Type_Contact_5" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="51" level_1="C" level_2="C3" level_3="C3.7" rule_name="Num_Type_Contact_7" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="52" level_1="C" level_2="C3" level_3="C3.8" rule_name="Num_Type_Contact_8" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="53" level_1="C" level_2="C3" level_3="C3.9" rule_name="Num_Type_Contact_9" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="54" level_1="C" level_2="C3" level_3="C3.10" rule_name="Num_Type_Contact_10" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="55" level_1="C" level_2="C6" level_3="C6.1" rule_name="Num_Cont_Inf_Mob" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="56" level_1="C" level_2="C6" level_3="C6.2" rule_name="Num_Cont_Inf_Home" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="57" level_1="C" level_2="C6" level_3="C6.3" rule_name="Num_Cont_Inf_Work" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="58" level_1="C" level_2="C6" level_3="C6.4" rule_name="Num_Cont_Inf_Other" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="59" level_1="C" level_2="C6" level_3="C6.5" rule_name="Num_Cont_Inf_Email" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="60" level_1="C" level_2="C6" level_3="C6.6" rule_name="Num_Cont_Inf_Soc" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="61" level_1="C" level_2="C6" level_3="C6.7" rule_name="Num_Cont_Inf_addrH" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="62" level_1="C" level_2="C6" level_3="C6.8" rule_name="Num_Cont_Inf_addrR" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="63" level_1="C" level_2="C6" level_3="" rule_name="Num_Cont_Inf" data_record_id="" rule_flag="1" rule_value="5" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="64" level_1="D" level_2="D1" level_3="D1" rule_name="Num_LastPayment" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="65" level_1="D" level_2="D1" level_3="D1.1" rule_name="Num_LastPayment_30" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="66" level_1="D" level_2="D1" level_3="D1.2" rule_name="Num_LastPayment_60" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="67" level_1="D" level_2="D1" level_3="D1.3" rule_name="Num_LastPayment_90" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="68" level_1="D" level_2="D1" level_3="D1.4" rule_name="Num_LastPayment_120" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="69" level_1="D" level_2="D1" level_3="D1.5" rule_name="Num_LastPayment_180" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="70" level_1="D" level_2="D1" level_3="D1.6" rule_name="Num_LastPayment_360" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="71" level_1="D" level_2="D1" level_3="D1.7" rule_name="Num_LastPayment_360more" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="72" level_1="D" level_2="D2" level_3="D2" rule_name="Sum_LastPayment" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="73" level_1="D" level_2="D2" level_3="D2.1" rule_name="Sum_LastPayment_30" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="74" level_1="D" level_2="D2" level_3="D2.2" rule_name="Sum_LastPayment_60" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="75" level_1="D" level_2="D2" level_3="D2.3" rule_name="Sum_LastPayment_90" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="76" level_1="D" level_2="D2" level_3="D2.4" rule_name="Sum_LastPayment_120" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="77" level_1="D" level_2="D2" level_3="D2.5" rule_name="Sum_LastPayment_180" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="78" level_1="D" level_2="D2" level_3="D2.6" rule_name="Sum_LastPayment_360" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="79" level_1="D" level_2="D2" level_3="D2.7" rule_name="Sum_LastPayment_360more" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="80" level_1="E" level_2="E1" level_3="E1" rule_name="Num_promise" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="81" level_1="E" level_2="E1" level_3="E1.1" rule_name="Num_promise_30" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="82" level_1="E" level_2="E1" level_3="E1.2" rule_name="Num_promise_60" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="83" level_1="E" level_2="E1" level_3="E1.3" rule_name="Num_promise_90" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="84" level_1="E" level_2="E1" level_3="E1.4" rule_name="Num_promise_120" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="85" level_1="E" level_2="E1" level_3="E1.5" rule_name="Num_promise_180" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="86" level_1="E" level_2="E1" level_3="E1.6" rule_name="Num_promise_360" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="87" level_1="E" level_2="E1" level_3="E1.7" rule_name="Num_promise_360more" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="88" level_1="E" level_2="E2" level_3="E2" rule_name="Sum_promise" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="89" level_1="E" level_2="E2" level_3="E2.1" rule_name="Sum_promise_30" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="90" level_1="E" level_2="E2" level_3="E2.2" rule_name="Sum_promise_60" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="91" level_1="E" level_2="E2" level_3="E2.3" rule_name="Sum_promise_90" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="92" level_1="E" level_2="E2" level_3="E2.4" rule_name="Sum_promise_120" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="93" level_1="E" level_2="E2" level_3="E2.5" rule_name="Sum_promise_180" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="94" level_1="E" level_2="E2" level_3="E2.6" rule_name="Sum_promise_360" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="95" level_1="E" level_2="E2" level_3="E2.7" rule_name="Sum_promise_360more" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="96" level_1="E" level_2="E4" level_3="" rule_name="Debt_NumAlloc" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="97" level_1="A" level_2="A12" level_3="" rule_name="Num_passprt_SP" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="98" level_1="A" level_2="A12" level_3="A12.1" rule_name="Num_passprt_SP30" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="99" level_1="A" level_2="A12" level_3="A12.2" rule_name="Num_passprt_SP60" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="100" level_1="A" level_2="A12" level_3="A12.3" rule_name="Num_passprt_SP90" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="101" level_1="A" level_2="A12" level_3="A12.4" rule_name="Num_passprt_SP120" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="102" level_1="A" level_2="A12" level_3="A12.5" rule_name="Num_passprt_SP180" data_record_id="" rule_flag="1" rule_value="1" rule_date="2015-12-09 00:00:00" />
+                    <rule rule_id="103" level_1="A" level_2="A12" level_3="A12.6" rule_name="Num_passprt_SP360" data_record_id="" rule_flag="1" rule_value="1" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="104" level_1="A" level_2="A12" level_3="A12.7" rule_name="Num_passprt_SP360more" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="105" level_1="A" level_2="A13" level_3="" rule_name="Num_Passprt_Contact" data_record_id="" rule_flag="1" rule_value="2" rule_date="2015-08-09 00:00:00" />
+                    <rule rule_id="106" level_1="A" level_2="A13" level_3="A13.1" rule_name="Num_Passprt_Contact30" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="107" level_1="A" level_2="A13" level_3="A13.2" rule_name="Num_Passprt_Contact60" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-04-18 00:00:00" />
+                    <rule rule_id="108" level_1="A" level_2="A13" level_3="A13.3" rule_name="Num_Passprt_Contact90" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="109" level_1="A" level_2="A13" level_3="A13.4" rule_name="Num_Passprt_Contact120" data_record_id="" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="110" level_1="A" level_2="A13" level_3="A13.5" rule_name="Num_Passprt_Contact180" data_record_id="" rule_flag="1" rule_value="1" rule_date="2015-12-09 00:00:00" />
+                    <rule rule_id="111" level_1="A" level_2="A13" level_3="A13.6" rule_name="Num_Passprt_Contact360" data_record_id="" rule_flag="1" rule_value="1" rule_date="2015-08-09 00:00:00" />
+                    <rule rule_id="112" level_1="A" level_2="A13" level_3="A13.7" rule_name="Num_Passprt_Contact360more" data_record_id="" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="113" level_1="I" level_2="I3" level_3="" rule_name="Num_cellph_SP" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="114" level_1="I" level_2="I3" level_3="I3.1" rule_name="Num_cellph_SP30" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="115" level_1="I" level_2="I3" level_3="I3.2" rule_name="Num_cellph_SP60" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="116" level_1="I" level_2="I3" level_3="I3.3" rule_name="Num_cellph_SP90" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="117" level_1="I" level_2="I3" level_3="I3.4" rule_name="Num_cellph_SP120" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="118" level_1="I" level_2="I3" level_3="I3.5" rule_name="Num_cellph_SP180" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="119" level_1="I" level_2="I3" level_3="I3.6" rule_name="Num_cellph_SP360" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="120" level_1="I" level_2="I3" level_3="I3.7" rule_name="Num_cellph_SP360more" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="121" level_1="I" level_2="I8" level_3="" rule_name="Num_Cont_Phn" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="122" level_1="I" level_2="I8" level_3="I8.1" rule_name="Num_Cont_Phn30" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="123" level_1="I" level_2="I8" level_3="I8.2" rule_name="Num_Cont_Phn60" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2016-04-18 00:00:00" />
+                    <rule rule_id="124" level_1="I" level_2="I8" level_3="I8.3" rule_name="Num_Cont_Phn90" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="125" level_1="I" level_2="I8" level_3="I8.4" rule_name="Num_Cont_Phn120" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="126" level_1="I" level_2="I8" level_3="I8.5" rule_name="Num_Cont_Phn180" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="127" level_1="I" level_2="I8" level_3="I8.6" rule_name="Num_Cont_Phn360" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="128" level_1="I" level_2="I8" level_3="I8.7" rule_name="Num_Cont_Phn360more" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="129" level_1="I" level_2="I3" level_3="" rule_name="Num_cellph_SP" data_record_id="2739723" rule_flag="1" rule_value="4" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="130" level_1="I" level_2="I3" level_3="I3.1" rule_name="Num_cellph_SP30" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="131" level_1="I" level_2="I3" level_3="I3.2" rule_name="Num_cellph_SP60" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="132" level_1="I" level_2="I3" level_3="I3.3" rule_name="Num_cellph_SP90" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="133" level_1="I" level_2="I3" level_3="I3.4" rule_name="Num_cellph_SP120" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="134" level_1="I" level_2="I3" level_3="I3.5" rule_name="Num_cellph_SP180" data_record_id="2739723" rule_flag="1" rule_value="3" rule_date="2015-12-28 00:00:00" />
+                    <rule rule_id="135" level_1="I" level_2="I3" level_3="I3.6" rule_name="Num_cellph_SP360" data_record_id="2739723" rule_flag="1" rule_value="2" rule_date="2015-09-18 00:00:00" />
+                    <rule rule_id="136" level_1="I" level_2="I3" level_3="I3.7" rule_name="Num_cellph_SP360more" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="137" level_1="I" level_2="I8" level_3="" rule_name="Num_Cont_Phn" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="138" level_1="I" level_2="I8" level_3="I8.1" rule_name="Num_Cont_Phn30" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="139" level_1="I" level_2="I8" level_3="I8.2" rule_name="Num_Cont_Phn60" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2016-04-18 00:00:00" />
+                    <rule rule_id="140" level_1="I" level_2="I8" level_3="I8.3" rule_name="Num_Cont_Phn90" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="141" level_1="I" level_2="I8" level_3="I8.4" rule_name="Num_Cont_Phn120" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="142" level_1="I" level_2="I8" level_3="I8.5" rule_name="Num_Cont_Phn180" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2015-12-09 00:00:00" />
+                    <rule rule_id="143" level_1="I" level_2="I8" level_3="I8.6" rule_name="Num_Cont_Phn360" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="144" level_1="I" level_2="I8" level_3="I8.7" rule_name="Num_Cont_Phn360more" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="145" level_1="I" level_2="I3" level_3="" rule_name="Num_cellph_SP" data_record_id="2739724" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="146" level_1="I" level_2="I3" level_3="I3.1" rule_name="Num_cellph_SP30" data_record_id="2739724" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="147" level_1="I" level_2="I3" level_3="I3.2" rule_name="Num_cellph_SP60" data_record_id="2739724" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="148" level_1="I" level_2="I3" level_3="I3.3" rule_name="Num_cellph_SP90" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="149" level_1="I" level_2="I3" level_3="I3.4" rule_name="Num_cellph_SP120" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="150" level_1="I" level_2="I3" level_3="I3.5" rule_name="Num_cellph_SP180" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="151" level_1="I" level_2="I3" level_3="I3.6" rule_name="Num_cellph_SP360" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="152" level_1="I" level_2="I3" level_3="I3.7" rule_name="Num_cellph_SP360more" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="153" level_1="I" level_2="I8" level_3="" rule_name="Num_Cont_Phn" data_record_id="2739724" rule_flag="1" rule_value="1" rule_date="2016-04-18 00:00:00" />
+                    <rule rule_id="154" level_1="I" level_2="I8" level_3="I8.1" rule_name="Num_Cont_Phn30" data_record_id="2739724" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="155" level_1="I" level_2="I8" level_3="I8.2" rule_name="Num_Cont_Phn60" data_record_id="2739724" rule_flag="1" rule_value="1" rule_date="2016-04-18 00:00:00" />
+                    <rule rule_id="156" level_1="I" level_2="I8" level_3="I8.3" rule_name="Num_Cont_Phn90" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="157" level_1="I" level_2="I8" level_3="I8.4" rule_name="Num_Cont_Phn120" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="158" level_1="I" level_2="I8" level_3="I8.5" rule_name="Num_Cont_Phn180" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="159" level_1="I" level_2="I8" level_3="I8.6" rule_name="Num_Cont_Phn360" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="160" level_1="I" level_2="I8" level_3="I8.7" rule_name="Num_Cont_Phn360more" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="161" level_1="M" level_2="M1" level_3="" rule_name="cardFound" data_record_id="1" rule_flag="1" rule_value="true" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="162" level_1="M" level_2="M2" level_3="" rule_name="countIssuedFor30Days" data_record_id="1" rule_flag="1" rule_value="0" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="163" level_1="M" level_2="M3" level_3="" rule_name="countIssuedFor90Days" data_record_id="1" rule_flag="1" rule_value="0" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="164" level_1="M" level_2="M4" level_3="" rule_name="countIssuedFor180Days" data_record_id="1" rule_flag="1" rule_value="3" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="165" level_1="M" level_2="M5" level_3="" rule_name="firstTransferFromMFODate" data_record_id="1" rule_flag="1" rule_value="2016.02.01" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="166" level_1="M" level_2="M6" level_3="" rule_name="lastDischargeAmount" data_record_id="1" rule_flag="1" rule_value="1917.78" rule_date="2016-05-31 00:00:00" />
+                    <rule rule_id="167" level_1="M" level_2="M7" level_3="" rule_name="lastRecurrentAmount" data_record_id="1" rule_flag="1" rule_value="558.47" rule_date="2016-03-30 00:00:00" />
+                    <rule rule_id="168" level_1="M" level_2="M8" level_3="" rule_name="lastSuccessfulDischargeAmount" data_record_id="1" rule_flag="1" rule_value="1917.78" rule_date="2016-05-31 00:00:00" />
+                    <rule rule_id="169" level_1="M" level_2="M9" level_3="" rule_name="lastSuccessfulRecurrentAmount" data_record_id="1" rule_flag="0" rule_value="" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="170" level_1="M" level_2="M10" level_3="" rule_name="lastTransferFromMFODate" data_record_id="1" rule_flag="1" rule_value="2016.03.01" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="171" level_1="M" level_2="M11" level_3="" rule_name="mfoCountFor30Days" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="172" level_1="M" level_2="M12" level_3="" rule_name="mfoCountFor90Days" data_record_id="1" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="173" level_1="M" level_2="M13" level_3="" rule_name="mfoCountFor180Days" data_record_id="1" rule_flag="1" rule_value="7" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="174" level_1="M" level_2="M14" level_3="" rule_name="totalDischargeAmount" data_record_id="1" rule_flag="1" rule_value="26970.28" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="175" level_1="M" level_2="M15" level_3="" rule_name="totalIssuedAmount" data_record_id="1" rule_flag="1" rule_value="17429" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="176" level_1="M" level_2="M16" level_3="" rule_name="totalRecurrentAmount" data_record_id="1" rule_flag="1" rule_value="0" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="177" level_1="M" level_2="M17" level_3="" rule_name="transfersFromMFO" data_record_id="1" rule_flag="1" rule_value="true" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="178" level_1="M" level_2="M18" level_3="" rule_name="mfoIssuedFor30Days" data_record_id="1" rule_flag="1" rule_value="0" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="179" level_1="M" level_2="M19" level_3="" rule_name="mfoIssuedFor90Days" data_record_id="1" rule_flag="1" rule_value="0" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="180" level_1="M" level_2="M20" level_3="" rule_name="mfoIssuedFor180Days" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="181" level_1="M" level_2="M21" level_3="" rule_name="cntcardusers" data_record_id="1" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="182" level_1="M" level_2="M22" level_3="" rule_name="cntusercards_all" data_record_id="1" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="183" level_1="M" level_2="M22" level_3="M22.1" rule_name="cntusercards_30" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="184" level_1="M" level_2="M22" level_3="M22.2" rule_name="cntusercards_60" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="185" level_1="M" level_2="M22" level_3="M22.3" rule_name="cntusercards_90" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="186" level_1="M" level_2="M22" level_3="M22.4" rule_name="cntusercards_120" data_record_id="1" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="187" level_1="M" level_2="M22" level_3="M22.5" rule_name="cntusercards_180" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="188" level_1="M" level_2="M22" level_3="M22.6" rule_name="cntusercards_360" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="189" level_1="M" level_2="M22" level_3="M22.7" rule_name="cntusercards_360more" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="190" level_1="M" level_2="M23" level_3="" rule_name="NumCrdPhone_all" data_record_id="2739724" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="191" level_1="M" level_2="M23" level_3="M23.1" rule_name="NumCrdPhone_30" data_record_id="2739724" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="192" level_1="M" level_2="M23" level_3="M23.2" rule_name="NumCrdPhone_60" data_record_id="2739724" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="193" level_1="M" level_2="M23" level_3="M23.3" rule_name="NumCrdPhone_90" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="194" level_1="M" level_2="M23" level_3="M23.4" rule_name="NumCrdPhone_120" data_record_id="2739724" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="195" level_1="M" level_2="M23" level_3="M23.5" rule_name="NumCrdPhone_180" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="196" level_1="M" level_2="M23" level_3="M23.6" rule_name="NumCrdPhone_360" data_record_id="2739724" rule_flag="1" rule_value="2" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="197" level_1="M" level_2="M23" level_3="M23.7" rule_name="NumCrdPhone_360more" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="198" level_1="M" level_2="M23" level_3="" rule_name="NumCrdPhone_all" data_record_id="2739723" rule_flag="1" rule_value="8" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="199" level_1="M" level_2="M23" level_3="M23.1" rule_name="NumCrdPhone_30" data_record_id="2739723" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="200" level_1="M" level_2="M23" level_3="M23.2" rule_name="NumCrdPhone_60" data_record_id="2739723" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="201" level_1="M" level_2="M23" level_3="M23.3" rule_name="NumCrdPhone_90" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="202" level_1="M" level_2="M23" level_3="M23.4" rule_name="NumCrdPhone_120" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="203" level_1="M" level_2="M23" level_3="M23.5" rule_name="NumCrdPhone_180" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="204" level_1="M" level_2="M23" level_3="M23.6" rule_name="NumCrdPhone_360" data_record_id="2739723" rule_flag="1" rule_value="4" rule_date="2015-12-02 00:00:00" />
+                    <rule rule_id="205" level_1="M" level_2="M23" level_3="M23.7" rule_name="NumCrdPhone_360more" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="206" level_1="M" level_2="M23" level_3="" rule_name="NumCrdPhone_all" data_record_id="2739722" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="207" level_1="M" level_2="M23" level_3="M23.1" rule_name="NumCrdPhone_30" data_record_id="2739722" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="208" level_1="M" level_2="M23" level_3="M23.2" rule_name="NumCrdPhone_60" data_record_id="2739722" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="209" level_1="M" level_2="M23" level_3="M23.3" rule_name="NumCrdPhone_90" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="210" level_1="M" level_2="M23" level_3="M23.4" rule_name="NumCrdPhone_120" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="211" level_1="M" level_2="M23" level_3="M23.5" rule_name="NumCrdPhone_180" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="212" level_1="M" level_2="M23" level_3="M23.6" rule_name="NumCrdPhone_360" data_record_id="2739722" rule_flag="1" rule_value="2" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="213" level_1="M" level_2="M23" level_3="M23.7" rule_name="NumCrdPhone_360more" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="214" level_1="M" level_2="M24" level_3="" rule_name="NumCrdPassprt_all" data_record_id="1" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="215" level_1="M" level_2="M24" level_3="M24.1" rule_name="NumCrdPassprt_30" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="216" level_1="M" level_2="M24" level_3="M24.2" rule_name="NumCrdPassprt_60" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="217" level_1="M" level_2="M24" level_3="M24.3" rule_name="NumCrdPassprt_90" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="218" level_1="M" level_2="M24" level_3="M24.4" rule_name="NumCrdPassprt_120" data_record_id="1" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="219" level_1="M" level_2="M24" level_3="M24.5" rule_name="NumCrdPassprt_180" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="220" level_1="M" level_2="M24" level_3="M24.6" rule_name="NumCrdPassprt_360" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="221" level_1="M" level_2="M24" level_3="M24.7" rule_name="NumCrdPassprt_360more" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="222" level_1="M" level_2="M28" level_3="" rule_name="cntcardsourses_all" data_record_id="1" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="223" level_1="M" level_2="M28" level_3="M28.1" rule_name="cntcardsourses_30" data_record_id="1" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="224" level_1="M" level_2="M28" level_3="M28.2" rule_name="cntcardsourses_60" data_record_id="1" rule_flag="1" rule_value="1" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="225" level_1="M" level_2="M28" level_3="M28.3" rule_name="cntcardsourses_90" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="226" level_1="M" level_2="M28" level_3="M28.4" rule_name="cntcardsourses_120" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="227" level_1="M" level_2="M28" level_3="M28.5" rule_name="cntcardsourses_180" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="228" level_1="M" level_2="M28" level_3="M28.6" rule_name="cntcardsourses_360" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="229" level_1="M" level_2="M28" level_3="M28.7" rule_name="cntcardsourses_360more" data_record_id="1" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="230" level_1="M" level_2="M36" level_3="" rule_name="cntallcardsusers" data_record_id="1" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="231" level_1="M" level_2="M1" level_3="" rule_name="cardFound" data_record_id="2" rule_flag="1" rule_value="true" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="232" level_1="M" level_2="M2" level_3="" rule_name="countIssuedFor30Days" data_record_id="2" rule_flag="1" rule_value="0" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="233" level_1="M" level_2="M3" level_3="" rule_name="countIssuedFor90Days" data_record_id="2" rule_flag="1" rule_value="6" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="234" level_1="M" level_2="M4" level_3="" rule_name="countIssuedFor180Days" data_record_id="2" rule_flag="1" rule_value="7" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="235" level_1="M" level_2="M5" level_3="" rule_name="firstTransferFromMFODate" data_record_id="2" rule_flag="1" rule_value="2016.02.24" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="236" level_1="M" level_2="M6" level_3="" rule_name="lastDischargeAmount" data_record_id="2" rule_flag="1" rule_value="205" rule_date="2016-05-27 00:00:00" />
+                    <rule rule_id="237" level_1="M" level_2="M7" level_3="" rule_name="lastRecurrentAmount" data_record_id="2" rule_flag="1" rule_value="726.01" rule_date="2016-04-30 00:00:00" />
+                    <rule rule_id="238" level_1="M" level_2="M8" level_3="" rule_name="lastSuccessfulDischargeAmount" data_record_id="2" rule_flag="1" rule_value="205" rule_date="2016-05-27 00:00:00" />
+                    <rule rule_id="239" level_1="M" level_2="M9" level_3="" rule_name="lastSuccessfulRecurrentAmount" data_record_id="2" rule_flag="0" rule_value="" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="240" level_1="M" level_2="M10" level_3="" rule_name="lastTransferFromMFODate" data_record_id="2" rule_flag="1" rule_value="2016.04.16" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="241" level_1="M" level_2="M11" level_3="" rule_name="mfoCountFor30Days" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="242" level_1="M" level_2="M12" level_3="" rule_name="mfoCountFor90Days" data_record_id="2" rule_flag="1" rule_value="8" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="243" level_1="M" level_2="M13" level_3="" rule_name="mfoCountFor180Days" data_record_id="2" rule_flag="1" rule_value="9" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="244" level_1="M" level_2="M14" level_3="" rule_name="totalDischargeAmount" data_record_id="2" rule_flag="1" rule_value="14044.13" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="245" level_1="M" level_2="M15" level_3="" rule_name="totalIssuedAmount" data_record_id="2" rule_flag="1" rule_value="59458.7" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="246" level_1="M" level_2="M16" level_3="" rule_name="totalRecurrentAmount" data_record_id="2" rule_flag="1" rule_value="0" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="247" level_1="M" level_2="M17" level_3="" rule_name="transfersFromMFO" data_record_id="2" rule_flag="1" rule_value="true" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="248" level_1="M" level_2="M18" level_3="" rule_name="mfoIssuedFor30Days" data_record_id="2" rule_flag="1" rule_value="0" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="249" level_1="M" level_2="M19" level_3="" rule_name="mfoIssuedFor90Days" data_record_id="2" rule_flag="1" rule_value="3" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="250" level_1="M" level_2="M20" level_3="" rule_name="mfoIssuedFor180Days" data_record_id="2" rule_flag="1" rule_value="4" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="251" level_1="M" level_2="M21" level_3="" rule_name="cntcardusers" data_record_id="2" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="252" level_1="M" level_2="M22" level_3="" rule_name="cntusercards_all" data_record_id="2" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="253" level_1="M" level_2="M22" level_3="M22.1" rule_name="cntusercards_30" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="254" level_1="M" level_2="M22" level_3="M22.2" rule_name="cntusercards_60" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="255" level_1="M" level_2="M22" level_3="M22.3" rule_name="cntusercards_90" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="256" level_1="M" level_2="M22" level_3="M22.4" rule_name="cntusercards_120" data_record_id="2" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="257" level_1="M" level_2="M22" level_3="M22.5" rule_name="cntusercards_180" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="258" level_1="M" level_2="M22" level_3="M22.6" rule_name="cntusercards_360" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="259" level_1="M" level_2="M22" level_3="M22.7" rule_name="cntusercards_360more" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="260" level_1="M" level_2="M23" level_3="" rule_name="NumCrdPhone_all" data_record_id="2739724" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="261" level_1="M" level_2="M23" level_3="M23.1" rule_name="NumCrdPhone_30" data_record_id="2739724" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="262" level_1="M" level_2="M23" level_3="M23.2" rule_name="NumCrdPhone_60" data_record_id="2739724" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="263" level_1="M" level_2="M23" level_3="M23.3" rule_name="NumCrdPhone_90" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="264" level_1="M" level_2="M23" level_3="M23.4" rule_name="NumCrdPhone_120" data_record_id="2739724" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="265" level_1="M" level_2="M23" level_3="M23.5" rule_name="NumCrdPhone_180" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="266" level_1="M" level_2="M23" level_3="M23.6" rule_name="NumCrdPhone_360" data_record_id="2739724" rule_flag="1" rule_value="2" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="267" level_1="M" level_2="M23" level_3="M23.7" rule_name="NumCrdPhone_360more" data_record_id="2739724" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="268" level_1="M" level_2="M23" level_3="" rule_name="NumCrdPhone_all" data_record_id="2739723" rule_flag="1" rule_value="8" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="269" level_1="M" level_2="M23" level_3="M23.1" rule_name="NumCrdPhone_30" data_record_id="2739723" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="270" level_1="M" level_2="M23" level_3="M23.2" rule_name="NumCrdPhone_60" data_record_id="2739723" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="271" level_1="M" level_2="M23" level_3="M23.3" rule_name="NumCrdPhone_90" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="272" level_1="M" level_2="M23" level_3="M23.4" rule_name="NumCrdPhone_120" data_record_id="2739723" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="273" level_1="M" level_2="M23" level_3="M23.5" rule_name="NumCrdPhone_180" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="274" level_1="M" level_2="M23" level_3="M23.6" rule_name="NumCrdPhone_360" data_record_id="2739723" rule_flag="1" rule_value="4" rule_date="2015-12-02 00:00:00" />
+                    <rule rule_id="275" level_1="M" level_2="M23" level_3="M23.7" rule_name="NumCrdPhone_360more" data_record_id="2739723" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="276" level_1="M" level_2="M23" level_3="" rule_name="NumCrdPhone_all" data_record_id="2739722" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="277" level_1="M" level_2="M23" level_3="M23.1" rule_name="NumCrdPhone_30" data_record_id="2739722" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="278" level_1="M" level_2="M23" level_3="M23.2" rule_name="NumCrdPhone_60" data_record_id="2739722" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="279" level_1="M" level_2="M23" level_3="M23.3" rule_name="NumCrdPhone_90" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="280" level_1="M" level_2="M23" level_3="M23.4" rule_name="NumCrdPhone_120" data_record_id="2739722" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="281" level_1="M" level_2="M23" level_3="M23.5" rule_name="NumCrdPhone_180" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="282" level_1="M" level_2="M23" level_3="M23.6" rule_name="NumCrdPhone_360" data_record_id="2739722" rule_flag="1" rule_value="2" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="283" level_1="M" level_2="M23" level_3="M23.7" rule_name="NumCrdPhone_360more" data_record_id="2739722" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="284" level_1="M" level_2="M24" level_3="" rule_name="NumCrdPassprt_all" data_record_id="2" rule_flag="1" rule_value="5" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="285" level_1="M" level_2="M24" level_3="M24.1" rule_name="NumCrdPassprt_30" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="286" level_1="M" level_2="M24" level_3="M24.2" rule_name="NumCrdPassprt_60" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2016-04-19 00:00:00" />
+                    <rule rule_id="287" level_1="M" level_2="M24" level_3="M24.3" rule_name="NumCrdPassprt_90" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="288" level_1="M" level_2="M24" level_3="M24.4" rule_name="NumCrdPassprt_120" data_record_id="2" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="289" level_1="M" level_2="M24" level_3="M24.5" rule_name="NumCrdPassprt_180" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="290" level_1="M" level_2="M24" level_3="M24.6" rule_name="NumCrdPassprt_360" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2015-09-05 00:00:00" />
+                    <rule rule_id="291" level_1="M" level_2="M24" level_3="M24.7" rule_name="NumCrdPassprt_360more" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="292" level_1="M" level_2="M28" level_3="" rule_name="cntcardsourses_all" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="293" level_1="M" level_2="M28" level_3="M28.1" rule_name="cntcardsourses_30" data_record_id="2" rule_flag="1" rule_value="1" rule_date="2016-06-01 00:00:00" />
+                    <rule rule_id="294" level_1="M" level_2="M28" level_3="M28.2" rule_name="cntcardsourses_60" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="295" level_1="M" level_2="M28" level_3="M28.3" rule_name="cntcardsourses_90" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="296" level_1="M" level_2="M28" level_3="M28.4" rule_name="cntcardsourses_120" data_record_id="2" rule_flag="1" rule_value="1" rule_date="2016-02-17 00:00:00" />
+                    <rule rule_id="297" level_1="M" level_2="M28" level_3="M28.5" rule_name="cntcardsourses_180" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="298" level_1="M" level_2="M28" level_3="M28.6" rule_name="cntcardsourses_360" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="299" level_1="M" level_2="M28" level_3="M28.7" rule_name="cntcardsourses_360more" data_record_id="2" rule_flag="0" rule_value="0" rule_date="" />
+                    <rule rule_id="300" level_1="M" level_2="M36" level_3="" rule_name="cntallcardsusers" data_record_id="2" rule_flag="1" rule_value="2" rule_date="2016-06-01 00:00:00" />
+                </rules>
+            </person>
+        </response>
+    </file>
+</results>

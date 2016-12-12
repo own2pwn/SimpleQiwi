@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <persona>
+        <personalInfo>
+            <lastName>Еремченко</lastName>
+            <firstName>Маргарита</firstName>
+            <patronimic>Михайловна</patronimic>
+            <gender>1</gender>
+            <birthDate>03.12.1949</birthDate>
+            <placeOfBirth>москва</placeOfBirth>
+            <passportSN>7516 847674</passportSN>
+            <issueDate>03.08.2016</issueDate>
+            <issueAuthority>-</issueAuthority>
+        </personalInfo>
+        <addressRegistration>
+            <postIndex>306051</postIndex>
+            <region>Челябинская обл</region>
+            <city>Челябинск г, Чурилово д</city>
+            <street></street>
+            <house>Домовладение 1</house>
+            <building/>
+            <flat>Квартира 3</flat>
+        </addressRegistration>
+        <addressResidential>
+            <postIndex>306051</postIndex>
+            <region>Челябинская обл</region>
+            <city>Челябинск г, Чурилово д</city>
+            <street></street>
+            <house>Домовладение 1</house>
+            <building/>
+            <flat>Квартира 3</flat>
+        </addressResidential>
+        <contactInfo>
+            <cellular>9135359553</cellular>
+            <cellularState>1</cellularState>
+            <cellularMethod>4</cellularMethod>
+            <phone>нет</phone>
+            <phoneState>1</phoneState>
+            <phoneMethod>4</phoneMethod>
+            <email>нет</email>
+            <emailState>1</emailState>
+            <emailMethod>4</emailMethod>
+        </contactInfo>
+    </persona>
+    <info>
+        <loan>
+            <loanID>777</loanID>
+            <staffMember>Иванова Мария Григорьевна</staffMember>
+            <loanPeriod>28</loanPeriod>
+            <loanSum>10000</loanSum>
+            <dayRate>2</dayRate>
+            <loanCurrency>RUB</loanCurrency>
+            <fullRepaymentAmount>15600</fullRepaymentAmount>
+            <day30DelayRepaymentAmount>23600</day30DelayRepaymentAmount>
+            <applicationSourceType>2</applicationSourceType>
+            <applicationSourceMethod>1</applicationSourceMethod>
+            <agreementSignatureMethod>1</agreementSignatureMethod>
+            <loanReceivingMethod>5</loanReceivingMethod>
+            <loanRepaymentMethod>5</loanRepaymentMethod>
+        </loan>
+        <repaymentSchedule>
+            <repaymentDate>10.12.2017</repaymentDate>
+            <repaymentAmount>15000</repaymentAmount>
+        </repaymentSchedule>
+        <borrowingHistory>
+            <numberLoansRepaid>0</numberLoansRepaid>
+        </borrowingHistory>
+    </info>
+    <loanReceivingMethod>
+        <cash>
+            <cash>1</cash>
+        </cash>
+    </loanReceivingMethod>
+    <NBKI/>
+    <Equifax>
+        <bki_response>
+            <response num="1" report_type="25627" dateofreport="2016-09-01">
+                <responsecode>1</responsecode>
+                <responsestring>Клиент найден и у него есть кредитная история</responsestring>
+                <title_part>
+                    <private>
+                        <lastname>ХАРЛАМОВ</lastname>
+                        <firstname>ИВАН</firstname>
+                        <middlename>ВАЛЕРЬЕВИЧ</middlename>
+                        <birthday>1985-10-15</birthday>
+                        <birthplace>П.ДОМБАРОВСКИЙ ДОМБАРОВСКОГО Р-НА ОРЕНБУРГСКОЙ ОБЛАСТИ</birthplace>
+                        <doc>
+                            <doctype>1</doctype>
+                            <docno>5307605253</docno>
+                            <docdate>23.11-1-23</docdate>
+                            <docplace>ОТДЕЛЕНИЕМ УФМС РОССИИ ПО ОРЕНБУРГСКОЙ О ОТДЕЛЕНИЕМ УФМС РОССИИ ПО ОРЕНБУРГСКОЙ О</docplace>
+                        </doc>
+                        <history_title>
+                            <date>2008-03-12</date>
+                            <lastname>ХАРЛАМОВ</lastname>
+                            <firstname>ИВАН</firstname>
+                            <middlename>ВАЛЕРЬЕВИЧ</middlename>
+                            <doc>
+                                <doctype>1</doctype>
+                                <docno>5307605253</docno>
+                                <docdate>23.11-1-23</docdate>
+                                <docplace>ОТДЕЛЕНИЕМ УФМС РОССИИ ПО ОРЕНБУРГСКОЙ ОБЛАСТИ В ДОМБАРОВСКОМ Р-НЕ</docplace>
+                            </doc>
+                        </history_title>
+                        <history_title>
+                            <date>2013-11-14</date>
+                            <lastname>ХАРЛАМОВ</lastname>
+                            <firstname>ИВАН</firstname>
+                            <middlename>ВАЛЕРЬЕВИЧ</middlename>
+                            <doc>
+                                <doctype>1</doctype>
+                                <docno>5307605253</docno>
+                                <docdate>23.11-1-23</docdate>
+                                <docplace>ОТДЕЛЕНИЕМ УФМС РОССИИ ПО ОРЕНБУРГСКОЙ О</docplace>
+                            </doc>
+                        </history_title>
+                        <history_title>
+                            <date>2015-05-07</date>
+                            <lastname>ХАРЛАМОВ</lastname>
+                            <firstname>ИВАН</firstname>
+                            <middlename>ВАЛЕРЬЕВИЧ</middlename>
+                            <doc>
+                                <doctype>1</doctype>
+                                <docno>5307605253</docno>
+                                <docdate>23.11-1-23</docdate>
+                                <docplace>ОТДЕЛЕНИЕМ УФМС РОССИИ ПО ОРЕНБУРГСКОЙ ОБЛАСТИ В ДОМБАРОВСКОМ Р-НЕ</docplace>
+                            </doc>
+                        </history_title>
+                        <history_title>
+                            <date>2015-12-14</date>
+                            <lastname>ХАРЛАМОВ</lastname>
+                            <firstname>ИВАН</firstname>
+                            <middlename>ВАЛЕРЬЕВИЧ</middlename>
+                            <doc>
+                                <doctype>1</doctype>
+                                <docno>5307605253</docno>
+                                <docdate>23.11-1-23</docdate>
+                                <docplace>ОУФМС РОССИИ ПО ОРЕНБУРГСКОЙ ОБЛАСТИ В ДОМБАРОВСКОМ Р-НЕ КП 560-015</docplace>
+                            </doc>
+                        </history_title>
+                        <history_title>
+                            <date>2016-04-09</date>
+                            <lastname>ХАРЛАМОВ</lastname>
+                            <firstname>ИВАН</firstname>
+                            <middlename>ВАЛЕРЬЕВИЧ</middlename>
+                            <doc>
+                                <doctype>1</doctype>
+                                <docno>5307605253</docno>
+                                <docdate>23.11-1-23</docdate>
+                                <docplace>ОТД УФМС РОССИИ ПО ОРЕНБУРГСКОЙ ОБЛАСТИ В ДОМБАРОВСКОМ Р-НЕ КП 560-015</docplace>
+                            </doc>
+                        </history_title>
+                        <pfno>06971034781</pfno>
+                    </private>
+                </title_part>
+                <base_part>
+                    <addr_reg>RU, 462734, 53, Р-Н ДОМБАРОВСКИЙ, П ДОМБАРОВСКИЙ, ЩОРСА, Д.82А, КВ.1</addr_reg>
+                    <addr_fact>RU, 198152, 40, Г САНКТ-ПЕТЕРБУРГ, АВТОВСКАЯ, Д.27, КВ.64</addr_fact>
+                    <history_addr>
+                        <addr_reg date="31.12-2-31">RU, 462734, 00, П ДОМБАРОВСКИЙ, УЛ ЩОРСА, Д.82А, КВ.1</addr_reg>
+                        <addr_reg date="14.12-2-14">99, 000000, 00, РОССИЯ ОРЕНБУРГСКАЯ ОБЛАСТЬ ОРЕНБУРГСКАЯ, ЩОРСА 82 А/1, Д.-</addr_reg>
+                        <addr_reg date="13.07-7-13">РОССИЙСКАЯ ФЕДЕРАЦИЯ, 462734, ДОМБАРОВСКИЙ, ЩОРСА, Д.82, КОРП.КОРП, КВ.1</addr_reg>
+                        <addr_reg date="07.05-5-07">462734,ДОМБАРОВСКИЙ,ЩОРСА,82,КОРП,1</addr_reg>
+                        <addr_reg date="14.11-1-14">РОССИЙСКАЯ ФЕДЕРАЦИЯ, 462734, П ДОМБАРОВСКИЙ, УЛ ЩОРСА, Д.82А, КВ.1</addr_reg>
+                        <addr_reg date="12.03-3-12">462734, ДОМБАРОВСКИЙ, ЩОРСА, Д.82, КОРП.А, КВ.1</addr_reg>
+                        <addr_fact date="14.12-2-14">99, 000000, 00, РОССИЯ САНКТ-ПЕТЕРБУРГ САНКТ-ПЕТЕРБУРГ, АВТОВСКАЯ 27 23, Д.-</addr_fact>
+                        <addr_fact date="13.07-7-13">РОССИЙСКАЯ ФЕДЕРАЦИЯ, 462430, ОРСК, ГАЙСКОЕ, Д.9, КОРП.А</addr_fact>
+                        <addr_fact date="07.05-5-07">462430,ОРСК,ГАЙСКОЕ,9,А</addr_fact>
+                        <addr_fact date="02.04-4-02">RU, 190000, 00, САНКТ-ПЕТЕРБУРГ, ПР-КТ СТАЧЕК, Д.88/2, КВ.9</addr_fact>
+                        <addr_fact date="15.09-9-15">РОССИЙСКАЯ ФЕДЕРАЦИЯ, 190000, Г САНКТ-ПЕТЕРБУРГ, ПР-КТ СТАЧЕК, Д.88/2, КВ.9</addr_fact>
+                        <addr_fact date="14.11-1-14">РОССИЙСКАЯ ФЕДЕРАЦИЯ, 462734, П ДОМБАРОВСКИЙ, УЛ ЩОРСА, Д.82А, КВ.1</addr_fact>
+                        <addr_fact date="12.03-3-12">462734, ДОМБАРОВСКИЙ, ОСИПЕНКО, Д.51, КВ.23</addr_fact>
+                    </history_addr>
+                    <addr_requests>
+                        <address addr_type="reg" date="18.06-6-18">462734, RU, 53, ДОМБАРОВСКИЙ, ДОМБАРОВСКИЙ, ЩОРСА, 82А, 1</address>
+                        <address addr_type="fact" date="18.06-6-18">462734, RU, 53, ДОМБАРОВСКИЙ, ДОМБАРОВСКИЙ, ЩОРСА, 82А, 1</address>
+                        <address addr_type="reg" date="13.05-5-13">462430, RU, 53, ОРСК Г, -, UNKNOWN, -, -</address>
+                        <address addr_type="fact" date="13.05-5-13">462430, RU, 53, ОРСК Г, -, UNKNOWN, -, -</address>
+                        <address addr_type="reg" date="08.12-2-08">462734, RU, 53, ОБЛ ОРЕНБУРГСКАЯ, ДОМБАРОВСКИЙ, УЛ ЩОРСА, 82/А1, -</address>
+                        <address addr_type="fact" date="08.12-2-08">198000, RU, 40, Г САНКТ-ПЕТЕРБУРГ, -, УЛ АВТОВСКАЯ, 27/23, -</address>
+                    </addr_requests>
+                    <phones>
+                        <phone_number phone_type="1" date="13.05-5-13">+79619232621</phone_number>
+                        <phone_number phone_type="1" date="08.12-2-08">+79062618423</phone_number>
+                        <phone_number phone_type="2" date="08.12-2-08">+70000000000</phone_number>
+                        <phone_number phone_type="3" date="08.12-2-08">+79219645997</phone_number>
+                    </phones>
+                    <credit>
+                        <cred_id>107145482</cred_id>
+                        <cred_first_load>12.03-3-12</cred_first_load>
+                        <cred_owner>0</cred_owner>
+                        <cred_partner_type>1</cred_partner_type>
+                        <cred_person_num>1</cred_person_num>
+                        <cred_ratio>0</cred_ratio>
+                        <cred_sum>16943.00</cred_sum>
+                        <cred_currency>RUR</cred_currency>
+                        <cred_date>06.03-3-06</cred_date>
+                        <cred_enddate>09.03-3-09</cred_enddate>
+                        <cred_sum_payout>0.00</cred_sum_payout>
+                        <cred_date_payout>01.02-2-01</cred_date_payout>
+                        <cred_sum_debt>0.00</cred_sum_debt>
+                        <cred_sum_limit>0.00</cred_sum_limit>
+                        <delay5>0</delay5>
+                        <delay30>4</delay30>
+                        <delay60>2</delay60>
+                        <delay90>7</delay90>
+                        <delay_more>5</delay_more>
+                        <cred_sum_overdue>0</cred_sum_overdue>
+                        <cred_day_overdue>0</cred_day_overdue>
+                        <cred_max_overdue>2743.94</cred_max_overdue>
+                        <cred_prolong>0</cred_prolong>
+                        <cred_enddate_fact>09..2-2009</cred_enddate_fact>
+                        <cred_collateral>0</cred_collateral>
+                        <cred_update>06.11-1-06</cred_update>
+                        <cred_type>05</cred_type>
+                        <cred_active>0</cred_active>
+                        <cred_active_date>01.02-2-01</cred_active_date>
+                        <cred_sum_type>0</cred_sum_type>
+                    </credit>
+                    <credit>
+                        <cred_id>514453543</cred_id>
+                        <cred_first_load>20.04-4-20</cred_first_load>
+                        <cred_owner>0</cred_owner>
+                        <cred_partner_type>1</cred_partner_type>
+                        <cred_person_num>1</cred_person_num>
+                        <cred_ratio>0</cred_ratio>
+                        <cred_sum>19436.00</cred_sum>
+                        <cred_currency>RUR</cred_currency>
+                        <cred_date>10.04-4-10</cred_date>
+                        <cred_enddate>14.04-4-14</cred_enddate>
+                        <cred_sum_payout>2124.51</cred_sum_payout>
+                        <cred_date_payout>03.05-5-03</cred_date_payout>
+                        <cred_sum_debt>0</cred_sum_debt>
+                        <cred_sum_limit>0.00</cred_sum_limit>
+                        <delay5>0</delay5>
+                        <delay30>5</delay30>
+                        <delay60>0</delay60>
+                        <delay90>0</delay90>
+                        <delay_more>0</delay_more>
+                        <cred_sum_overdue>0</cred_sum_overdue>
+                        <cred_day_overdue>0</cred_day_overdue>
+                        <cred_max_overdue>1734.11</cred_max_overdue>
+                        <cred_prolong>0</cred_prolong>
+                        <cred_collateral>0</cred_collateral>
+                        <cred_update>24.10-0-24</cred_update>
+                        <cred_type>05</cred_type>
+                        <cred_active>1</cred_active>
+                        <cred_active_date>01.02-2-01</cred_active_date>
+                        <cred_sum_type>0</cred_sum_type>
+                    </credit>
+                    <credit>
+                        <cred_id>941104735</cred_id>
+                        <cred_first_load>20.05-5-20</cred_first_load>
+                        <cred_owner>0</cred_owner>
+                        <cred_partner_type>1</cred_partner_type>
+                        <cred_person_num>1</cred_person_num>
+                        <cred_ratio>0</cred_ratio>
+                        <cred_sum>0.00</cred_sum>
+                        <cred_currency>RUR</cred_currency>
+                        <cred_date>13.05-5-13</cred_date>
+                        <cred_enddate>02.10-0-02</cred_enddate>
+                        <cred_sum_payout>27208.11</cred_sum_payout>
+                        <cred_date_payout>01.10-0-01</cred_date_payout>
+                        <cred_sum_debt>0.00</cred_sum_debt>
+                        <cred_sum_limit>0.00</cred_sum_limit>
+                        <delay5>0</delay5>
+                        <delay30>0</delay30>
+                        <delay60>2</delay60>
+                        <delay90>2</delay90>
+                        <delay_more>1</delay_more>
+                        <cred_sum_overdue>0</cred_sum_overdue>
+                        <cred_day_overdue>0</cred_day_overdue>
+                        <cred_max_overdue>27208.11</cred_max_overdue>
+                        <cred_prolong>0</cred_prolong>
+                        <cred_enddate_fact>15..2-2015</cred_enddate_fact>
+                        <cred_collateral>0</cred_collateral>
+                        <cred_update>28.10-0-28</cred_update>
+                        <cred_type>04</cred_type>
+                        <cred_active>0</cred_active>
+                        <cred_active_date>02.10-0-02</cred_active_date>
+                        <cred_sum_type>0</cred_sum_type>
+                    </credit>
+                    <credit>
+                        <cred_id>1535230557</cred_id>
+                        <cred_first_load>30.04-4-30</cred_first_load>
+                        <cred_owner>0</cred_owner>
+                        <cred_partner_type>1</cred_partner_type>
+                        <cred_person_num>1</cred_person_num>
+                        <cred_ratio>0</cred_ratio>
+                        <cred_sum>18235.00</cred_sum>
+                        <cred_currency>RUR</cred_currency>
+                        <cred_date>30.04-4-30</cred_date>
+                        <cred_enddate>30.10-0-30</cred_enddate>
+                        <cred_sum_payout>3298.60</cred_sum_payout>
+                        <cred_date_payout>30.11-1-30</cred_date_payout>
+                        <cred_sum_debt>0.00</cred_sum_debt>
+                        <cred_sum_limit>0.00</cred_sum_limit>
+                        <delay5>1</delay5>
+                        <delay30>1</delay30>
+                        <delay60>0</delay60>
+                        <delay90>0</delay90>
+                        <delay_more>0</delay_more>
+                        <cred_sum_overdue>0</cred_sum_overdue>
+                        <cred_day_overdue>0</cred_day_overdue>
+                        <cred_max_overdue>3298.6</cred_max_overdue>
+                        <cred_prolong>0</cred_prolong>
+                        <cred_enddate_fact>15..2-2015</cred_enddate_fact>
+                        <cred_collateral>0</cred_collateral>
+                        <cred_update>01.01-1-01</cred_update>
+                        <cred_type>05</cred_type>
+                        <cred_active>0</cred_active>
+                        <cred_active_date>30.11-1-30</cred_active_date>
+                        <cred_sum_type>0</cred_sum_type>
+                    </credit>
+                    <credit>
+                        <cred_id>1646826237</cred_id>
+                        <cred_first_load>28.10-0-28</cred_first_load>
+                        <cred_owner>0</cred_owner>
+                        <cred_partner_type>1</cred_partner_type>
+                        <cred_person_num>1</cred_person_num>
+                        <cred_ratio>0</cred_ratio>
+                        <cred_sum>30989.45</cred_sum>
+                        <cred_currency>RUR</cred_currency>
+                        <cred_date>01.10-0-01</cred_date>
+                        <cred_enddate>24.08-8-24</cred_enddate>
+                        <cred_sum_payout>1500.00</cred_sum_payout>
+                        <cred_date_payout>17.07-7-17</cred_date_payout>
+                        <cred_sum_debt>18989.45</cred_sum_debt>
+                        <cred_sum_limit>0.00</cred_sum_limit>
+                        <delay5>0</delay5>
+                        <delay30>3</delay30>
+                        <delay60>0</delay60>
+                        <delay90>0</delay90>
+                        <delay_more>0</delay_more>
+                        <cred_sum_overdue>0</cred_sum_overdue>
+                        <cred_day_overdue>0</cred_day_overdue>
+                        <cred_max_overdue>1500</cred_max_overdue>
+                        <cred_prolong>0</cred_prolong>
+                        <cred_collateral>0</cred_collateral>
+                        <cred_update>27.07-7-27</cred_update>
+                        <cred_type>05</cred_type>
+                        <cred_active>1</cred_active>
+                        <cred_active_date>27.07-7-27</cred_active_date>
+                        <cred_sum_type>0</cred_sum_type>
+                    </credit>
+                </base_part>
+                <add_part>
+                    <interest>
+                        <hour>0</hour>
+                        <day>0</day>
+                        <week>0</week>
+                        <month>0</month>
+                        <quarter>2</quarter>
+                        <year>8</year>
+                    </interest>
+                    <own_interest>
+                        <hour>0</hour>
+                        <day>0</day>
+                        <week>0</week>
+                        <month>0</month>
+                        <quarter>0</quarter>
+                        <year>0</year>
+                    </own_interest>
+                    <info_requests>
+                        <request>
+                            <timeslot>quarter</timeslot>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>quarter</timeslot>
+                            <cred_type>99</cred_type>
+                            <cred_currency>RUR</cred_currency>
+                            <cred_sum>0.00</cred_sum>
+                            <cred_duration>0.00</cred_duration>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>year</timeslot>
+                            <cred_type>99</cred_type>
+                            <cred_currency>RUR</cred_currency>
+                            <cred_sum>0.00</cred_sum>
+                            <cred_duration>0.00</cred_duration>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>year</timeslot>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>year</timeslot>
+                            <cred_type>99</cred_type>
+                            <cred_currency>RUR</cred_currency>
+                            <cred_sum>0.00</cred_sum>
+                            <cred_duration>0.00</cred_duration>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>year</timeslot>
+                            <cred_type>99</cred_type>
+                            <cred_currency>RUR</cred_currency>
+                            <cred_sum>0.00</cred_sum>
+                            <cred_duration>0.00</cred_duration>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>year</timeslot>
+                            <cred_type>99</cred_type>
+                            <cred_currency>RUR</cred_currency>
+                            <cred_sum>0.00</cred_sum>
+                            <cred_duration>4.00</cred_duration>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>year</timeslot>
+                            <cred_type>99</cred_type>
+                            <cred_currency>RUR</cred_currency>
+                            <cred_sum>0.00</cred_sum>
+                            <cred_duration>0.00</cred_duration>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>year</timeslot>
+                            <cred_type>99</cred_type>
+                            <cred_currency>RUR</cred_currency>
+                            <cred_sum>0.00</cred_sum>
+                            <cred_duration>0.00</cred_duration>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                        <request>
+                            <timeslot>year</timeslot>
+                            <cred_type>99</cred_type>
+                            <cred_currency>RUR</cred_currency>
+                            <cred_sum>0.00</cred_sum>
+                            <cred_duration>0.00</cred_duration>
+                            <cred_partner_type>1</cred_partner_type>
+                        </request>
+                    </info_requests>
+                    <attrs>
+                        <package id="27" name="Расширение базового кредитного отчета">
+                            <section id="23" name="Кредитная часть (расширенная)">
+                                <period>
+                                    <attr c_i="1646826237" n="705" v="12000"/>
+                                    <attr c_i="1646826237" n="706" v="1500.00"/>
+                                    <attr c_i="1646826237" n="831" v="--2200022220"/>
+                                    <attr c_i="514453543" n="705" v="22845.51"/>
+                                    <attr c_i="514453543" n="706" v="1495.08"/>
+                                    <attr c_i="514453543" n="831" v="-----------------------0000000000000000000000000000022222000002200"/>
+                                    <attr c_i="1535230557" n="705" v="17800"/>
+                                    <attr c_i="1535230557" n="706" v="-"/>
+                                    <attr c_i="1535230557" n="831" v="CCCCCCCCCC2100000"/>
+                                    <attr c_i="941104735" n="705" v="79627.42"/>
+                                    <attr c_i="941104735" n="706" v="-"/>
+                                    <attr c_i="941104735" n="831" v="CCCCCCCCCCCC35432000000000000000043200000"/>
+                                    <attr c_i="107145482" n="705" v="17384.27"/>
+                                    <attr c_i="107145482" n="706" v="-"/>
+                                    <attr c_i="107145482" n="831" v="CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC00000225554455443220"/>
+                                </period>
+                            </section>
+                        </package>
+                    </attrs>
+                </add_part>
+            </response>
+        </bki_response>
+    </Equifax>
+</form>

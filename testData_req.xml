@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><request date="12.12.2012 10:10:10" id="1123123" request_type="ALL">
+    <person_data>
+        <person hash_birth_date="38403e16cc29de69a06505e57f3ab48010105818f88f2b3a71515e040e53ee4787f7cdddd122fcefd6ff6553c702949f835955358e32f5279472335ce66cbdb0" hash_birth_place="068150ebd5a8e70fe5ce4c156c1536578aea3093d6e4401485c42a88698974d8b72e143e8f651050d8575b9db2d67e20c8a361fae54c29f953ab496a3f91b2e0" hash_first_name="4392dc4dbe0e74dc1667d5cea14a7e1ea21dfa0f9a461b58da4b1f739927025ed6095cab28261357c14529b05dfc04bd6b351724ed7dd0f3bc27b548a160e152" hash_inn="f7a1c079038afed782cdae8d5a0f357ff3c9a0b45889e11457d35955cf5efcd03205479bd4e3154dbe91241c41f89838602dd1ac746b2b7ec5c945d28307fe6c" hash_last_name="0c898fab3da2cb386e7a443a677683be3b177ffe32141cc8aad3e2e287fdef8c1c672932a3b2298d7ed7ff94c863ba5fe297fec62dbb18702b262276267cc854" hash_middle_name="19a28f9edd1a21e4d934ed2a9e0b9b22eb9498af13bc3d0051b3b3c6dd57c15c8cd002d2e42881d59af265db9ee1f95761af1843080953dea48d8aa53d874e42" hash_snils="f7a1c079038afed782cdae8d5a0f357ff3c9a0b45889e11457d35955cf5efcd03205479bd4e3154dbe91241c41f89838602dd1ac746b2b7ec5c945d28307fe6c" record_id="1" sex="1" type="1">
+            <person_addresses>
+                <address address_city_name="Москва" address_index="400000" address_region="Московская область" address_type="2" hash_address_building_number="04825049b72dd29cc0c96b8743fa5d6015d4d0afc20285153b781fc6ddf57316dbba93606b4edf083271ca962e0c1ef3d6772357802315f563f86d1670f7ab17" hash_address_flat_number="88f51a8985b407eeab8c6c87c9178ea5b0e2b1962d6f4fc5785dc1202519f8f2f78aaca75dfa9c871034f3455557977808bf8ab9d2844135d27cded0411b2aaf" hash_address_street_name="074c4ed82dd21f98f06415296edf51841d44e3d55969788f36d7e9f79dcc07e87c7fe46c33ba7fdfec3f82fe3a0de3520b3a6314bb41ffb4770b89c4393223dc" record_id="1"/>
+            </person_addresses>
+            <person_phones>
+                <phone phone_number="9277899889" phone_type="3" record_id="1"/>
+            </person_phones>
+            <person_docs>
+                <doc doc_issue_auth="Орган, выдавший документ" doc_type="" hash_doc_issue_date="c5971a38c2063e5a27d1c323f30f072093bb7fbd14ede7415a42beb28a29b2e61a361424b97d9136172b394990260cc64f2f78564c6f391fea0fb9b58b05445e" hash_doc_number="9b8555c2232c6eba1edf38002ee5804f6d41ff24592fa288e399acc05a75853b6aeee0d85e557bc414015a346e6a63e2e34fa70148f716fd8ab0d8c12b1a7348" hash_doc_serial="d4c4d8229ca1b7312a08829ae3382b160e6a91f28273081fc4e504559f9aecbdc0469a78f2cd55710e3b03aa2ae4685a5beba8d955ca706661111b3f7d781ad4" record_id="1"/>
+            </person_docs>
+            <person_cards>
+                <card card_exp_date="01.06.2018" card_number="1234561234566789" record_id="1"/>
+            </person_cards>
+        </person>
+    </person_data>
+</request>

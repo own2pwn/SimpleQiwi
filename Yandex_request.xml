@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<REQUEST>
+    <AACT_ID>200957</AACT_ID>
+    <VERSION>2.50</VERSION>
+    <DSTACNT_NR>12345678910</DSTACNT_NR>
+    <ID_DATA>
+        <IDDOC_HASH>fioNumber</IDDOC_HASH>
+    </ID_DATA>
+</REQUEST>

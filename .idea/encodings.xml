@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/AFSInvoker.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/Externalsystems/AbstractExternalSystem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/Externalsystems/HTTPSExternalSystem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/Helpers/CMSHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/Helpers/DateHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/Helpers/IOUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/Helpers/StringHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/Helpers/XMLHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/sample/qiwi/YandexMoneyInvoker.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

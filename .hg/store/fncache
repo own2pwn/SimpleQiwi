@@ -1,0 +1,11 @@
+data/src/main/java/ru/sample/qiwi/Helpers/XMLHelper.java.i
+data/src/main/java/ru/sample/qiwi/Externalsystems/HTTPSExternalSystem.java.i
+data/pom.xml.i
+data/src/main/java/ru/sample/qiwi/Externalsystems/AbstractExternalSystem.java.i
+data/SimpleQiwi.iml.i
+data/src/main/java/ru/sample/qiwi/Helpers/StringHelper.java.i
+data/src/main/java/ru/sample/qiwi/Helpers/DateHelper.java.i
+data/src/main/java/ru/sample/qiwi/Helpers/NormalizationData.java.i
+data/src/main/java/ru/sample/qiwi/Helpers/CMSHelper.java.i
+data/src/main/java/ru/sample/qiwi/Helpers/IOUtils.java.i
+data/src/main/java/ru/sample/qiwi/QiwiInvoker.java.i

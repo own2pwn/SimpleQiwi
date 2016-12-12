@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personRequest>
+    <actAddrCity>Москва</actAddrCity>
+    <actAddrCountry>ru</actAddrCountry>
+    <actAddrPostal>123123</actAddrPostal>
+    <actAddrRegion>77</actAddrRegion>
+    <actAddrStreet>улица</actAddrStreet>
+    <amount>123</amount>
+    <currency>rub</currency>
+    <dateOfBirth>1980-11-11</dateOfBirth>
+    <dateOfReport>2008-01-01</dateOfReport>
+    <firstName>Георгий</firstName>
+    <idNum>123456</idNum>
+    <idSeries>1234</idSeries>
+    <idType>21</idType>
+    <issueAuthority>кем выдан</issueAuthority>
+    <issueDate>2001-11-11</issueDate>
+    <issueLocation>место</issueLocation>
+    <middleName>Георгиевич</middleName>
+    <placeOfBirth>Магадан</placeOfBirth>
+    <reason>99</reason>
+    <regAddrCity>МОСКВА</regAddrCity>
+    <regAddrCountry>ru</regAddrCountry>
+    <regAddrPostal>321123</regAddrPostal>
+    <regAddrRegion>77</regAddrRegion>
+    <regAddrStreet>улица</regAddrStreet>
+    <surName>Кустов</surName>
+</personRequest>

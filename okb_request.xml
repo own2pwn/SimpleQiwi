@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<s>
+    <s n="EnquiryRequest">
+        <a n="reason">02</a>
+        <a n="financeType">23</a>
+        <a n="currency">EUR</a>
+        <a n="creditLimit">2000</a>
+        <a n="paymentFrequency">03</a>
+        <a n="applicationChannel">01</a>
+        <a n="cbrFinanceType">03</a>
+        <c n="Consumer">
+            <s>
+                <a n="applicantType">01</a>
+                <a n="name1">John</a>
+                <a n="surname">Smith</a>
+                <a n="sex">1</a>
+                <a n="dateOfBirth">19650520</a>
+                <a n="nationality">GB</a>
+                <a n="primaryIDType">01</a>
+                <a n="primaryID">4</a>
+                <a n="secondaryIDType">98</a>
+                <a n="primaryIncome">1400</a>
+                <a n="primaryIncomeFreq">3</a>
+                <c n="Address">
+                    <s>
+                        <a n="addressFlag">0</a>
+                        <a n="addressType">1</a>
+                    </s>
+                    <s>
+                        <a n="addressFlag">1</a>
+                        <a n="addressType">1</a>
+                    </s>
+                </c>
+            </s>
+        </c>
+    </s>
+</s>

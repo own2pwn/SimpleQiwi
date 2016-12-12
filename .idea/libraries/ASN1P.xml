@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="ASN1P">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/ASN1P.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/asn1rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/bcprov-jdk15on-147.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/commons-io-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/javacsv.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/JCP.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/JCP_ASN.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/JCPinst.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbch_fraud.jar/JCryptoP.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
