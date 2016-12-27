@@ -195,12 +195,22 @@ public class XMLHelper {
     /**
      * Преобразование Json в Xml
      * @param input Json текст
+     * @return Xml документ
+     * @throws ParserConfigurationException
+     */
+    public static Document convertJsonToXml(String input) throws Exception {
+        return convertJsonToXml(new JSONObject(input), null);
+    }
+
+    /**
+     * Преобразование Json в Xml
+     * @param input Json текст
      * @param rootName Имя корневого узла
      * @return Xml документ
      * @throws ParserConfigurationException
      */
-    public static Document generateXmlFromJson(String input, String rootName) throws Exception {
-        return generateXmlFromJson(new JSONObject(input), rootName);
+    public static Document convertJsonToXml(String input, String rootName) throws Exception {
+        return convertJsonToXml(new JSONObject(input), rootName);
     }
 
     /**
@@ -210,120 +220,87 @@ public class XMLHelper {
      * @return Xml документ
      * @throws ParserConfigurationException
      */
-    public static Document generateXmlFromJson(Object input, String rootName) throws Exception {
-        Document output = generateEmptyXmlDocument(StringHelper.escapeXmlString(rootName)); // Выходной документ
-        Document partResult = null; // Документ возвращенный часть
-        Element rootElement = null; // Корневой элемент документа
-        NodeList nodeList = null;   // Массив элементов эквивалентных JSONArray
-        Node textNode = null;       // Значение ноды
-        Node node = null;           // Узел документа
-        Object value = null;        // Значение JSON элемента
+    public static Document convertJsonToXml(Object input, String rootName) throws Exception {
+        if (StringHelper.isNullOrEmpty(rootName) ) {
+            if (((JSONObject)input).length() == 1) {
+                rootName = ((JSONObject)input).keys().next();
+                input = ((JSONObject)input).get(rootName);
+            } else {
+                throw new Exception("Имя корневого элемента не задано или Json на верхнем уровне не состоит из одного элемента JSONObject");
+            }
+        }
+
+        Document output = generateEmptyXmlDocument(rootName); // Выходной документ
+        Element rootElement = output.getDocumentElement(); // Корневой элемент документа
+        Node arrayNode = null;          // Корневой узел для элемента JSONObject
+        JSONArray jsonArray = null;     // Массив JSONObject
+        JSONObject jsonObject = null;   // Класс, в котором хранятся пары ключ/значение
 
         // Определяем тип корневого элемента
         if (input instanceof JSONObject) {
-            JSONObject localInput = (JSONObject)input;
+            jsonObject = (JSONObject)input;
 
-            // Проходим все элементы верхнего уровня
-            for (String key : localInput.keySet()) {
-                value = localInput.opt(key);
+            parseJSONObject(jsonObject, output, rootElement);
 
-                // Проверка типа значения
-                if (value instanceof JSONObject) { // Рекурсивно обрабатываем содержимое элемента
-                    partResult = generateXmlFromJson(localInput.getJSONObject(key), key);
-                    node = output.importNode(partResult.getFirstChild(), true);
-                    output.getDocumentElement().appendChild(node);
-                } else if (value instanceof JSONArray) { // Ркурсивно обрабатываем массив
-                    partResult = generateXmlFromJson(localInput.getJSONArray(key), key);
-
-                    nodeList = ((Element)partResult.getFirstChild()).getElementsByTagName(key);
-                    for(int j = 0; j < nodeList.getLength(); j++) {
-                        node = output.importNode(nodeList.item(j), true);
-                        output.getDocumentElement().appendChild(node);
-                    }
-                } else { // Обычный элемент
-                    node = output.createElement(StringHelper.escapeXmlString(key));
-                    textNode = output.createTextNode(StringHelper.escapeXmlString(value.toString()));
-                    node.appendChild(textNode);
-                    output.getDocumentElement().appendChild(node);
-                }
-            }
         } else if (input instanceof JSONArray) {
-            JSONArray localInput = (JSONArray)input; // Массив JSONObject
-            Node arrayNode = null; // Корневой узел для элемента JSONObject
+            jsonArray = (JSONArray)input;
 
             // Перебираем все элементы массива
-            for(int i = 0; i < localInput.length(); i++) {
-                JSONObject arrayInput = (JSONObject)localInput.get(i);
+            for(int i = 0; i < jsonArray.length(); i++) {
+                jsonObject = (JSONObject)jsonArray.get(i);
 
                 // Создаем корневой элемент для JSONObject
-                rootElement = output.getDocumentElement();
-                arrayNode = output.createElement(StringHelper.escapeXmlString(rootName));
+                arrayNode = output.createElement(rootName);
 
-                // Проходим по всем элементам верхнего уровня
-                for (String key : arrayInput.keySet()) {
-                    value = arrayInput.opt(key);
-
-                    if (value instanceof JSONObject) {
-                        partResult = generateXmlFromJson(arrayInput.getJSONObject(key), key);
-                        node = output.importNode(partResult.getElementsByTagName(key).item(0), true);
-                        output.getDocumentElement().appendChild(node);
-                    } else if (value instanceof JSONArray) {
-                        partResult = generateXmlFromJson(arrayInput.getJSONObject(key), key);
-
-                        nodeList = ((Element)partResult.getFirstChild()).getElementsByTagName(key);
-                        for(int j = 0; j < nodeList.getLength(); j++) {
-                            node = output.importNode(nodeList.item(j), true);
-                            output.getDocumentElement().appendChild(node);
-                        }
-                    } else {
-                        if (key.startsWith("@")) { // Атрибут узла
-                            ((Element)arrayNode).setAttribute(StringHelper.escapeXmlString(key.substring(1)),
-                                    StringHelper.escapeXmlString(value.toString()));
-                        } else if (key.startsWith("#") || key.equals("content")) { // Значение узла
-                            textNode = output.createTextNode(StringHelper.escapeXmlString(value.toString()));
-                            arrayNode.appendChild(textNode);
-                        } else { // Элемент узла
-                            node = output.createElement(StringHelper.escapeXmlString(key));
-                            textNode = output.createTextNode(StringHelper.escapeXmlString(value.toString()));
-                            node.appendChild(textNode);
-                            arrayNode.appendChild(node);
-                        }
-                    }
-                }
+                parseJSONObject(jsonObject, output, arrayNode);
 
                 // Добавляем элемент JSONObject к выходу
                 rootElement.appendChild(arrayNode);
             }
         } else {
-            throw new Exception("Обшика преобразования Json в Xml");
+            throw new Exception("Некорректный тип входного элемента Json");
         }
 
         return output;
     }
+    
+    private static void parseJSONObject(JSONObject input, Document output, Node rootNode) throws Exception {
+        Document partResult = null; // Документ возвращенный часть
+        NodeList nodeList = null;   // Массив элементов эквивалентных JSONArray
+        Node textNode = null;       // Значение ноды
+        Node node = null;           // Узел документа
+        Object value = null;        // Значение JSON элемента
 
-//    public static Document generateXmlFromJson(JSONObject input) throws ParserConfigurationException {
-//        JSONObject inputJson = new JSONObject(input);
-//        Document output = generateEmptyXmlDocument(rootName);
-//        Element rootElement = null;
-//        Node node = null;
-//
-//        Object value = null;
-//        for (String key : inputJson.keySet()) {
-//            value = inputJson.get(key);
-//
-//            if (value.getClass().getName().contains("JSONObject")) {
-//
-//            } else if (value.getClass().getName().contains("JSONArray")) {
-//
-//            } else {
-//                rootElement = output.getDocumentElement();
-//                node = output.createElement(key);
-//                node.setTextContent((String) value);
-//                rootElement.appendChild(node);
-//            }
-//        }
-//
-//        return output;
-//    }
+        // Проходим по всем элементам верхнего уровня
+        for (String key : input.keySet()) {
+            value = input.opt(key);
+
+            if (value instanceof JSONObject) {
+                partResult = convertJsonToXml(input.getJSONObject(key), key);
+                node = output.importNode(partResult.getElementsByTagName(key).item(0), true);
+                rootNode.appendChild(node);
+            } else if (value instanceof JSONArray) {
+                partResult = convertJsonToXml(input.getJSONArray(key), key);
+
+                nodeList = ((Element)partResult.getFirstChild()).getElementsByTagName(key);
+                for(int j = 0; j < nodeList.getLength(); j++) {
+                    node = output.importNode(nodeList.item(j), true);
+                    rootNode.appendChild(node);
+                }
+            } else {
+                if (key.startsWith("-") || key.startsWith("@")) { // Атрибут узла
+                    ((Element)rootNode).setAttribute(key.substring(1),value.toString());
+                } else if (key.startsWith("#") || key.equals("content")) { // Значение узла
+                    textNode = output.createTextNode(value.toString());
+                    rootNode.appendChild(textNode);
+                } else { // Элемент узла
+                    node = output.createElement(key);
+                    textNode = output.createTextNode(value.toString());
+                    node.appendChild(textNode);
+                    rootNode.appendChild(node);
+                }
+            }
+        }
+    }
 }
 

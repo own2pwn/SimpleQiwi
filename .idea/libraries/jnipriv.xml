@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jnipriv">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/jnipriv.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

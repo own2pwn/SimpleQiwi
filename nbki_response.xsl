@@ -230,16 +230,19 @@
                     </xsl:attribute>
                 </xsl:when>
 
-                <xsl:when test="name() ">
-                    <xsl:attribute name="{name()}">
-                        <xsl:value-of select="."/>
-                    </xsl:attribute>
-                </xsl:when>
-
                 <xsl:when test="not(*) and not(*[*])">
                     <xsl:attribute name="{name()}">
                         <xsl:value-of select="."/>
                     </xsl:attribute>
+
+                    <xsl:if test="name(..)='PersonReq' and
+                            name()='first' or
+                            name()='name1' or
+                            name()='paternal'">
+                        <xsl:attribute name="{name()}_hash">
+                            <xsl:value-of select="hash:checksum(.)"/>
+                        </xsl:attribute>
+                    </xsl:if>
                 </xsl:when>
             </xsl:choose>
         </xsl:for-each>

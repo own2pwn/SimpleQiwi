@@ -41,4 +41,10 @@ public class HashHelper {
         byte[] result = md.digest(input.getBytes());
         return result;
     }
+
+    public static String getSHA1Hash2(String input) throws NoSuchAlgorithmException {
+        MessageDigest md = MessageDigest.getInstance("SHA1");
+        byte[] result = md.digest(input.getBytes());
+        return StringHelper.toHexString(result);
+    }
 }

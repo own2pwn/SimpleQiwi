@@ -14,9 +14,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.math.BigInteger;
-import java.security.KeyStore;
-import java.security.PrivateKey;
-import java.security.Signature;
+import java.security.*;
 import java.security.cert.Certificate;
 import java.security.cert.X509Certificate;
 import java.util.Enumeration;
@@ -52,6 +50,34 @@ public class CMSHelper2 {
         BASE64Encoder encoder = new BASE64Encoder();
 
         return "-----BEGIN PKCS7-----" + "\n" + new String(encoder.encode(encodedPKCS7)) + "\n" + "-----END PKCS7-----";
+    }
+
+    /**
+     *
+     * @param data
+     * @param key
+     * @param algorithmName
+     * Example: Sha1WithRSA
+     * @return
+     * @throws NoSuchAlgorithmException
+     * @throws InvalidKeyException
+     * @throws SignatureException
+     */
+    public static byte[] signatureSign(byte[] data, PrivateKey key, String algorithmName) throws NoSuchAlgorithmException, InvalidKeyException, SignatureException {
+        Signature signature = Signature.getInstance(algorithmName);
+        signature.initSign(key);
+        signature.update(data);
+        return signature.sign();
+    }
+
+    /**
+     *
+     * @param data
+     * @return
+     */
+    public static String toBase64(byte[] data) {
+        BASE64Encoder encoder = new BASE64Encoder();
+        return new String(encoder.encode(data));
     }
 }
 

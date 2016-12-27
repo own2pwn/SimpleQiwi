@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -58,7 +58,7 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.21" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.saxon:Saxon-HE:9.7.0-4" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.saxon:Saxon-HE:9.7.0-14" level="project" />
     <orderEntry type="library" name="Maven: taglibs:standard:1.1.2" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: ru.CryptoPro:JCP:1.0.53">
@@ -119,5 +119,7 @@
     <orderEntry type="library" name="Maven: org.apache.axis2:axis2-transport-local:1.7.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.axis2:axis2-transport-http:1.7.3" level="project" />
     <orderEntry type="library" name="Maven: commons-httpclient:commons-httpclient:3.1" level="project" />
+    <orderEntry type="library" name="Maven: xmlunit:xmlunit:1.4" level="project" />
+    <orderEntry type="library" name="jnipriv" level="project" />
   </component>
 </module>
