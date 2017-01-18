@@ -2,8 +2,8 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="xml" indent="yes"/>
 
-    <xsl:template match="/response">
-        <xsl:element name="CLEVER_DATA">
+    <xsl:template match="/response/data">
+        <xsl:element name="MEGAFON">
             <xsl:call-template name="fillAttributesByElements"/>
         </xsl:element>
     </xsl:template>
@@ -14,6 +14,13 @@
     <xsl:template name="fillAttributesByElements">
         <xsl:for-each select="*">
             <xsl:choose>
+                <xsl:when test="local-name() = 'msisdn' and name(..) = 'data'">
+                    <xsl:element name="{local-name()}_ME">
+                        <xsl:attribute name="value">
+                            <xsl:value-of select="."/>
+                        </xsl:attribute>
+                    </xsl:element>
+                </xsl:when>
                 <xsl:when test="not(*) and not(*[*])">
                     <xsl:attribute name="{local-name()}">
                         <xsl:value-of select="."/>
@@ -25,7 +32,7 @@
         <xsl:for-each select="*">
             <xsl:choose>
                 <xsl:when test="*">
-                    <xsl:element name="{local-name()}_CD">
+                    <xsl:element name="{local-name()}_ME">
                         <xsl:call-template name="fillOldAttributes"/>
                         <xsl:call-template name="fillAttributesByElements"/>
                     </xsl:element>

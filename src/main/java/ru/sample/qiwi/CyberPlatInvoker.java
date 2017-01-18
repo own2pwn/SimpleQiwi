@@ -1,26 +1,24 @@
 package ru.sample.qiwi;
 
 import org.apache.http.HttpEntity;
-import org.apache.http.HttpHeaders;
-import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.util.EntityUtils;
 import ru.sample.qiwi.Externalsystems.HTTPSExternalSystem;
 import ru.sample.qiwi.Helpers.CMSHelper2;
 import ru.sample.qiwi.Helpers.StringHelper;
 
+import java.io.DataInputStream;
 import java.io.File;
-import java.io.UnsupportedEncodingException;
-import java.net.HttpURLConnection;
-import java.net.URLDecoder;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.nio.charset.UnsupportedCharsetException;
 import java.nio.file.Files;
-import java.security.KeyFactory;
-import java.security.PrivateKey;
+import java.security.*;
+import java.security.cert.Certificate;
+import java.security.cert.CertificateException;
+import java.security.cert.CertificateFactory;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.util.ArrayList;
 import java.util.List;
@@ -78,6 +76,27 @@ public class CyberPlatInvoker extends HTTPSExternalSystem {
 
     public void main() throws Exception {
         String input = "phone=79262221133;";
+        String certName = "c:\\Users\\Дмитрий Астахов\\Downloads\\cyberplat.pfx";
+        String certPassword = "axiomatika";
+        String keyStoreType = "pkcs12";
+        String keyStoreCertName = null;
+        PrivateKey privateKey = null;
+
+        KeyStore keyStore = null;
+        try {
+            keyStore = KeyStore.getInstance(keyStoreType);
+            keyStore.load(new FileInputStream(certName), certPassword.toCharArray());
+            keyStoreCertName = keyStore.aliases().nextElement();
+            privateKey = (PrivateKey) keyStore.getKey(keyStoreCertName, certPassword.toCharArray());
+        } catch (KeyStoreException | IOException | NoSuchAlgorithmException | CertificateException | UnrecoverableKeyException e) {
+            throw new Exception("(CyberPlat)Ошибка инициализации криптографической подсистемы", e);
+        }
+        FileInputStream fin = new FileInputStream("c:\\Users\\Дмитрий Астахов\\Downloads\\cyberplat_gost_test.cer");
+        CertificateFactory f = CertificateFactory.getInstance("X.509");
+        Certificate certificate = f.generateCertificate(fin);
+        PublicKey pubk = certificate.getPublicKey();
+        PrivateKey pk = get("c:\\Users\\Дмитрий Астахов\\Downloads\\secret.key");
+        pk = getPrivateKey("c:\\Users\\Дмитрий Астахов\\Downloads\\secret.key");
         Map<String, String> inputParams = StringHelper.splitParamsStringToMap(input);
 
         List<NameValuePair> requestParams = new ArrayList<NameValuePair>();
@@ -90,7 +109,7 @@ public class CyberPlatInvoker extends HTTPSExternalSystem {
         requestParams.add(new BasicNameValuePair("QUEST_TYPE", inputParams.get("questtype"))); // TODO: this.getConnectionParams().get("questtype")
 
         String request = "";
-        request = "'CERT=" + "" + "\r\n" +
+        request = "CERT=" + pk.toString() + "\r\n" +
                 "SD=" + inputParams.get("dealer") + "\r\n" +
                 "AP=" + inputParams.get("placereceiving") + "\r\n" +
                 "OP=" + inputParams.get("operator") + "\r\n" +
@@ -102,7 +121,6 @@ public class CyberPlatInvoker extends HTTPSExternalSystem {
         String normalizeRequest = request.trim();
         normalizeRequest = normalizeRequest.replaceAll("[ \r\n\t]", "");
 
-        PrivateKey pk = getPrivateKey("");
         String signature = CMSHelper2.toBase64(CMSHelper2.signatureSign(normalizeRequest.getBytes(), pk, "Sha1WithRSA"));
 
         request = "BEGIN\r\n" + request + "\r\nEND\r\n"
@@ -125,6 +143,22 @@ public class CyberPlatInvoker extends HTTPSExternalSystem {
             throws Exception {
 
         byte[] keyBytes = Files.readAllBytes(new File(filename).toPath());
+
+        PKCS8EncodedKeySpec spec =
+                new PKCS8EncodedKeySpec(keyBytes);
+        KeyFactory kf = KeyFactory.getInstance("RSA");
+        return kf.generatePrivate(spec);
+    }
+
+    public static PrivateKey get(String filename)
+            throws Exception {
+
+        File f = new File(filename);
+        FileInputStream fis = new FileInputStream(f);
+        DataInputStream dis = new DataInputStream(fis);
+        byte[] keyBytes = new byte[(int) f.length()];
+        dis.readFully(keyBytes);
+        dis.close();
 
         PKCS8EncodedKeySpec spec =
                 new PKCS8EncodedKeySpec(keyBytes);

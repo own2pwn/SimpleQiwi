@@ -68,7 +68,7 @@ public class MailInvoker extends HTTPSExternalSystem {
     public String createRequest(Map<String, String> params) {
         JSONObject requestJSON = new JSONObject();
 
-        String ApplicationName= "ApplicationName";
+        String ApplicationName = "ApplicationName";
         String Method = "GetStreetClientScore";
         String ProductName = "ProductName";
         String Login = "Login";
@@ -96,7 +96,7 @@ public class MailInvoker extends HTTPSExternalSystem {
             if (entry.getKey().endsWith("s")) {
                 arrayJSON = new JSONArray();
 
-                listParams = ((String)value).split(",");
+                listParams = ((String) value).split(",");
                 for (int i = 0; i < listParams.length; i++) {
                     arrayJSON.put(listParams[i]);
                 }
@@ -109,37 +109,5 @@ public class MailInvoker extends HTTPSExternalSystem {
         requestJSON.put("Params", requestJSONParam);
 
         return requestJSON.toString();
-    }
-
-    public static JSONObject generateEmptyJSON(String rootName) {
-        JSONObject result = new JSONObject();
-        result.put(rootName, "");
-
-        return result;
-    }
-
-    public JSONObject generateJSONFromParams(Map<String, String> params, String name) {
-        JSONObject result = generateEmptyJSON(name);
-        //JSONObject rootElement = result.getJSONObject(name);
-
-        result.put(name, generateJSONFromParams(params));
-
-        return result;
-    }
-
-    public JSONObject generateJSONFromParams(Map<String, String> params) {
-        JSONObject result = new JSONObject();
-
-        for (Map.Entry<String, String> entry : params.entrySet()) {
-            result.put(entry.getKey(), entry.getValue());
-        }
-
-        return result;
-    }
-
-    public JSONObject generateJSONFromParams(String params, String name) throws Exception {
-        Map<String, String> inputParams = StringHelper.splitParamsStringToMap(params);
-
-        return generateJSONFromParams(inputParams, name);
     }
 }

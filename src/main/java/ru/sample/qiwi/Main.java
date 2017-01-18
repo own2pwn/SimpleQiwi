@@ -17,6 +17,7 @@ import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import ru.sample.qiwi.Helpers.StringHelper;
 import ru.sample.qiwi.Helpers.XMLHelper;
+import sun.util.logging.resources.logging;
 
 import javax.imageio.ImageIO;
 import javax.xml.bind.JAXBContext;
@@ -45,8 +46,7 @@ import java.util.List;
  */
 public class Main {
     public static void main(String[] args) {
-        System.setProperty("javax.xml.transform.TransformerFactory",
-                "net.sf.saxon.TransformerFactoryImpl");
+
         TestAxilinkSoap invoker = new TestAxilinkSoap();
 
         String json = "{  \n" +
