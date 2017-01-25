@@ -360,14 +360,22 @@ public class Main {
                 "</xsl:stylesheet>";
 
 
-        String s = null;
+//        String s = null;
+//        try {
+//            Document doc = XMLHelper.convertJsonToXml(json, "response");
+//            s = XMLHelper.convertToString(doc);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+        json = "{\"MatchingLevel\":0,\"Date\":\"20170120\",\"Score\":0.72,\"warning\":{\"message\":\"fields with bad values\",\"data\":[[\"Phones\",\"Phones field has bad value\"]]}}";
+
+        String result = null;
         try {
-            Document doc = XMLHelper.convertJsonToXml(json, "response");
-            s = XMLHelper.convertToString(doc);
+            result = XMLHelper.convertToString(XMLHelper.convertJsonToXml(json, "response"));
         } catch (Exception e) {
             e.printStackTrace();
         }
-
 
 //        try {
 //            br = new BufferedReader(new FileReader("tmp.xml"));

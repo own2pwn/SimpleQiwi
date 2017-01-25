@@ -194,8 +194,9 @@ public class XMLHelper {
 
     /**
      * Преобразование Json в Xml
+     *
      * @param input Json текст
-     * @return Xml документ
+     * @return Xml Документ
      * @throws ParserConfigurationException
      */
     public static Document convertJsonToXml(String input) throws Exception {
@@ -204,9 +205,10 @@ public class XMLHelper {
 
     /**
      * Преобразование Json в Xml
-     * @param input Json текст
+     *
+     * @param input    Json текст
      * @param rootName Имя корневого узла
-     * @return Xml документ
+     * @return Xml Документ
      * @throws ParserConfigurationException
      */
     public static Document convertJsonToXml(String input, String rootName) throws Exception {
@@ -215,18 +217,21 @@ public class XMLHelper {
 
     /**
      * Преобразование Json в Xml
-     * @param input Объект типа Json
+     *
+     * @param input    Объект типа Json
      * @param rootName Имя корневого узла
-     * @return Xml документ
+     * @return Xml Документ
      * @throws ParserConfigurationException
      */
     public static Document convertJsonToXml(Object input, String rootName) throws Exception {
-        if (StringHelper.isNullOrEmpty(rootName) ) {
-            if (((JSONObject)input).length() == 1) {
-                rootName = ((JSONObject)input).keys().next();
-                input = ((JSONObject)input).get(rootName);
+        // Проверяем корректность входных данных
+        if (StringHelper.isNullOrEmpty(rootName)) {
+            if (((JSONObject) input).length() == 1) {
+                rootName = ((JSONObject) input).keys().next();
+                input = ((JSONObject) input).get(rootName);
             } else {
-                throw new Exception("Имя корневого элемента не задано или Json на верхнем уровне не состоит из одного элемента JSONObject");
+                throw new Exception("Имя корневого элемента не задано или " +
+                        "Json на верхнем уровне не состоит из одного элемента JSONObject");
             }
         }
 
@@ -238,32 +243,30 @@ public class XMLHelper {
 
         // Определяем тип корневого элемента
         if (input instanceof JSONObject) {
-            jsonObject = (JSONObject)input;
+            jsonObject = (JSONObject) input;
 
             parseJSONObject(jsonObject, output, rootElement);
 
         } else if (input instanceof JSONArray) {
-            jsonArray = (JSONArray)input;
+            jsonArray = (JSONArray) input;
 
-            // Перебираем все элементы массива
-            for(int i = 0; i < jsonArray.length(); i++) {
-                jsonObject = (JSONObject)jsonArray.get(i);
-
-                // Создаем корневой элемент для JSONObject
-                arrayNode = output.createElement(rootName);
-
-                parseJSONObject(jsonObject, output, arrayNode);
-
-                // Добавляем элемент JSONObject к выходу
-                rootElement.appendChild(arrayNode);
-            }
+            parseJSONArray(jsonArray, output, rootElement, rootName);
         } else {
             throw new Exception("Некорректный тип входного элемента Json");
         }
 
         return output;
     }
-    
+
+    /**
+     * Парсинг JSONObject
+     *
+     * @param input    Входной Json
+     * @param output   Выходной документ
+     * @param rootNode Элемент выходного документа(Node) в который идет запись параметров при парсинге
+     * @throws ParserConfigurationException
+     * @throws ExternalSystemException
+     */
     private static void parseJSONObject(JSONObject input, Document output, Node rootNode) throws Exception {
         Document partResult = null; // Документ возвращенный часть
         NodeList nodeList = null;   // Массив элементов эквивалентных JSONArray
@@ -276,20 +279,26 @@ public class XMLHelper {
             value = input.opt(key);
 
             if (value instanceof JSONObject) {
-                partResult = convertJsonToXml(input.getJSONObject(key), key);
-                node = output.importNode(partResult.getElementsByTagName(key).item(0), true);
+//                partResult = convertJsonToXml(input.getJSONObject(key), key);
+//                node = output.importNode(partResult.getElementsByTagName(key).item(0), true);
+//                rootNode.appendChild(node);
+//
+                node = output.createElement(key);
+                parseJSONObject(input.getJSONObject(key), output, node);
                 rootNode.appendChild(node);
             } else if (value instanceof JSONArray) {
-                partResult = convertJsonToXml(input.getJSONArray(key), key);
-
-                nodeList = ((Element)partResult.getFirstChild()).getElementsByTagName(key);
-                for(int j = 0; j < nodeList.getLength(); j++) {
-                    node = output.importNode(nodeList.item(j), true);
-                    rootNode.appendChild(node);
-                }
+//                partResult = convertJsonToXml(input.getJSONArray(key), key);
+//
+//                nodeList = ((Element) partResult.getFirstChild()).getElementsByTagName(key);
+//                for (int j = 0; j < nodeList.getLength(); j++) {
+//                    node = output.importNode(nodeList.item(j), true);
+//                    rootNode.appendChild(node);
+//                }
+//
+                parseJSONArray(input.getJSONArray(key), output, rootNode, key);
             } else {
-                if (key.startsWith("-") || key.startsWith("@")) { // Атрибут узла
-                    ((Element)rootNode).setAttribute(key.substring(1),value.toString());
+                if (key.startsWith("@") || key.startsWith("-")) { // Атрибут узла
+                    ((Element) rootNode).setAttribute(key.substring(1), value.toString());
                 } else if (key.startsWith("#") || key.equals("content")) { // Значение узла
                     textNode = output.createTextNode(value.toString());
                     rootNode.appendChild(textNode);
@@ -299,6 +308,49 @@ public class XMLHelper {
                     node.appendChild(textNode);
                     rootNode.appendChild(node);
                 }
+            }
+        }
+    }
+
+    private static void parseJSONArray(JSONArray input, Document output, Node rootNode, String rootName) throws Exception {
+        Document partResult = null; // Документ возвращенный часть
+        NodeList nodeList = null;   // Массив элементов эквивалентных JSONArray
+        Node textNode = null;       // Значение ноды
+        Node node = null;           // Узел документа
+        Object value = null;        // Значение JSON элемента
+        Node arrayNode = null;
+        JSONArray jsonArray = null;     // Массив JSONObject
+        JSONObject jsonObject = null;   // Класс, в котором хранятся пары ключ/значение
+
+        // Проходим по всем элементам верхнего уровня
+        for (int i = 0; i < input.length(); i++) {
+            value = input.get(i);
+
+            if (value instanceof JSONArray) {
+                arrayNode = output.createElement(rootName);
+
+                parseJSONArray((JSONArray)value, output, arrayNode, "array");
+
+                rootNode.appendChild(arrayNode);
+            } else if (value instanceof String) { // Обрабатываем массив состоящий из одного текстового элемента. Пример: ["Test"]
+                // Создаем корневой элемент для JSONObject
+                arrayNode = output.createElement(rootName);
+
+                textNode = output.createTextNode((String) value);
+                arrayNode.appendChild(textNode);
+
+                // Добавляем элемент JSONObject к выходу
+                rootNode.appendChild(arrayNode);
+            } else if (value instanceof JSONObject) {
+                jsonObject = (JSONObject) value;
+
+                // Создаем корневой элемент для JSONObject
+                arrayNode = output.createElement(rootName);
+
+                parseJSONObject(jsonObject, output, arrayNode);
+
+                // Добавляем элемент JSONObject к выходу
+                rootNode.appendChild(arrayNode);
             }
         }
     }
